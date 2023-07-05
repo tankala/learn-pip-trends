@@ -50,3 +50,81 @@ header:
       tr      : &TR       Blog
       # @end locale config
     url: /blog.html
+
+  - titles:
+      # @start locale config
+      en      : &EN       Sample Code
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  示例代码
+      zh      : *ZH_HANS
+      zh-CN   : *ZH_HANS
+      zh-SG   : *ZH_HANS
+      zh-Hant : &ZH_HANT  示例代碼
+      zh-TW   : *ZH_HANT
+      zh-HK   : *ZH_HANT
+      ko      : &KO       샘플 코드
+      ko-KR   : *KO
+      fr      : &FR       Exemple de code
+      fr-BE   : *FR
+      fr-CA   : *FR
+      fr-CH   : *FR
+      fr-FR   : *FR
+      fr-LU   : *FR
+      tr      : &TR       Basit kod
+      # @end locale config
+    url: /sample-code.html
+
+  - titles:
+      # @start locale config
+      en      : &EN       Newsletter
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  通讯
+      zh      : *ZH_HANS
+      zh-CN   : *ZH_HANS
+      zh-SG   : *ZH_HANS
+      zh-Hant : &ZH_HANT  通訊
+      zh-TW   : *ZH_HANT
+      zh-HK   : *ZH_HANT
+      ko      : &KO       뉴스 레터
+      ko-KR   : *KO
+      fr      : &FR       bulletin
+      fr-BE   : *FR
+      fr-CA   : *FR
+      fr-CH   : *FR
+      fr-FR   : *FR
+      fr-LU   : *FR
+      tr      : &TR       haber bülteni
+      # @end locale config
+    url: /newsletter.html
+
+  - titles:
+      # @start locale config
+      en      : &EN       Courses
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  培训班
+      zh      : *ZH_HANS
+      zh-CN   : *ZH_HANS
+      zh-SG   : *ZH_HANS
+      zh-Hant : &ZH_HANT  培訓班
+      zh-TW   : *ZH_HANT
+      zh-HK   : *ZH_HANT
+      ko      : &KO       과정
+      ko-KR   : *KO
+      fr      : &FR       cours
+      fr-BE   : *FR
+      fr-CA   : *FR
+      fr-CH   : *FR
+      fr-FR   : *FR
+      fr-LU   : *FR
+      tr      : &TR       dersler
+      # @end locale config
+    url: /courses.html
