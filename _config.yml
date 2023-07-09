@@ -27,8 +27,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  tankala
 
 # Build settings
-# theme: jekyll-text-theme
-remote_theme: kitian616/jekyll-text-theme@master
+theme: jekyll-text-theme
 text_skin: default
 
 plugins:
