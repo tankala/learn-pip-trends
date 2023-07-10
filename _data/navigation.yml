@@ -10,30 +10,13 @@ header:
 
   - titles:
       # @start locale config
-      en      : &EN       Blog
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-    url: /blog.html
-
-  - titles:
-      # @start locale config
       en      : &EN       Sample Code
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
       en-AU   : *EN
+      # @end locale config
     url: /sample-code.html
-
-  - titles:
-      # @start locale config
-      en      : &EN       Newsletter
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-    url: /newsletter.html
 
   - titles:
       # @start locale config
@@ -42,4 +25,25 @@ header:
       en-US   : *EN
       en-CA   : *EN
       en-AU   : *EN
+      # @end locale config
     url: /courses.html
+
+  - titles:
+      # @start locale config
+      en      : &EN       Blog
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      # @end locale config
+    url: /blog.html
+
+  - titles:
+      # @start locale config
+      en      : &EN       Newsletter
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      # @end locale config
+    url: /newsletter.html
