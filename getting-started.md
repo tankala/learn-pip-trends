@@ -2,7 +2,7 @@
 layout: articles
 title: Getting Started
 articles:
-  data_source: site.sample_page
+  data_source: site.getting_started
   type: brief
   show_info: true
 ---

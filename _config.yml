@@ -209,3 +209,16 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jemoji
+
+#collections
+collections:
+  sample:
+    output: true
+  getting_started:
+    output: true
+  course:
+    output: true
+  blog:
+    output: true
+  newsletter:
+    output: true
