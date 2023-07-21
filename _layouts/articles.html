@@ -1,6 +1,7 @@
 ---
 layout: page
 ---
+{{ content }}
 
 {%- assign _page_articles_data_source = page.articles.data_source | default: layout.articles.data_source -%}
 
@@ -86,4 +87,3 @@ layout: page
   </div>
 {%- endif -%}
 
-{{ content }}

@@ -1,7 +1,6 @@
 ---
 layout: article
-title: Python-docx - Complete Guide
-tags: courses
+title: Python-docx
 permalink: /courses/python-docx.html
 key: courses/python-docx
 cover: /assets/images/courses/Python-docx Icon.png
