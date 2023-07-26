@@ -16,8 +16,8 @@ In This Issue:
 1. [Featured Blog - "learn-pip-trends - What's Next?"](/blogs/whats-next.html)
 In this week's featured artblogicle, we delve into some new upcoming features for pip Trends.
 
-2. [New Course Launch - "Python-docx"](courses/python-docx.html)
-Unlock the power of data with our latest course! Dive into data manipulation, visualization, and machine learning using Python's renowned data science libraries. Whether you're a data enthusiast or an aspiring data scientist, this course will equip you with the skills to conquer the world of data analytics.
+2. [New Course Launch - "Python-docx"](/getting-started/python-docx.html)
+Learn from Zero to Hero, everything about Python-docx
 
 3. [Upcoming Python Events - "PyCon India 2023"](https://in.pycon.org/2023/)
 PyCon India 2023 is the premier conference for Python enthusiasts and professionals, offering an unparalleled opportunity to dive deep into the world of Python and explore its limitless potential. Stay tuned for updates!

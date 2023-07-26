@@ -3,8 +3,16 @@ layout: article
 title: Installing Python on Windows
 permalink: /getting-started/install-python.html
 key: getting-started-install-python
+cover: /assets/images/getting-started/Python Windows Install Logo.png
 aside:
   toc: true
+article_header:
+  type: overlay
+  theme: dark
+  background_color: '#203028'
+  background_image:
+    gradient: 'linear-gradient(135deg, #2BF29F, #FFFF00)'
+    src: /docs/assets/images/cover3.jpg
 ---
 
 #### Prerequisites

@@ -1,9 +1,9 @@
 ---
 layout: article
 title: Python-docx
-permalink: /courses/python-docx.html
-key: courses/python-docx
-cover: /assets/images/courses/Python-docx Icon.png
+permalink: /getting-started/python-docx.html
+key: getting-started-python-docx
+cover: /assets/images/getting-started/Python-docx Icon.png
 aside:
   toc: true
 article_header:
