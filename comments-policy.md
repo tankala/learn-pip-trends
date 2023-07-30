@@ -3,7 +3,7 @@ layout: article
 title: Comments Policy
 ---
 
-We welcome all python lovers to Learn pip Trends, a platform to learn anything about Python and Python packages. We believe in fostering a friendly and inclusive community where everyone can share their knowledge, insights, and opinions. To ensure a positive and enriching experience for all users, we have established the following comments policy:
+We welcome all python lovers to learn-pip-trends, a platform to learn anything about Python and Python packages. We believe in fostering a friendly and inclusive community where everyone can share their knowledge, insights, and opinions. To ensure a positive and enriching experience for all users, we have established the following comments policy:
 
 1. **Respectful Usernames:** Please use your real name or a nickname when commenting. Avoid using keywords or promotional phrases in the name field. Comments with irrelevant or spammy names will be flagged as SPAM and may be removed.
 
@@ -17,9 +17,9 @@ We welcome all python lovers to Learn pip Trends, a platform to learn anything a
 
 6. **No Personal Attacks:** We promote a culture of respect and fairness. Constructive criticism and debates about the content are welcome, but personal attacks on bloggers or fellow commenters will not be tolerated. Failure to adhere to this policy may result in the removal of the offending comment and potential access restrictions.
 
-7. **Editorial Rights:** The editorial staff at Learn pip Trends reserves the right to edit, delete, move, or mark as spam any comments that violate this policy. We may also exercise our right to block access to anyone or any group of individuals from commenting or accessing the platform.
+7. **Editorial Rights:** The editorial staff at learn-pip-trends reserves the right to edit, delete, move, or mark as spam any comments that violate this policy. We may also exercise our right to block access to anyone or any group of individuals from commenting or accessing the platform.
 
-8. **Hold Harmless:** All comments made on Learn pip Trends are the sole responsibility of the commenter. By submitting a comment, you confirm that the content is your own, and you agree to hold Learn pip Trends, its subsidiaries, and representatives harmless from any repercussions, damages, or liability arising from your comments.
+8. **Hold Harmless:** All comments made on learn-pip-trends are the sole responsibility of the commenter. By submitting a comment, you confirm that the content is your own, and you agree to hold learn-pip-trends, its subsidiaries, and representatives harmless from any repercussions, damages, or liability arising from your comments.
 
-Thank you for being a part of the Learn pip Trends community. Let's work together to create an engaging and supportive platform for all Python enthusiasts!
+Thank you for being a part of the learn-pip-trends community. Let's work together to create an engaging and supportive platform for all Python enthusiasts!
 

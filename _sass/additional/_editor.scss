@@ -1,0 +1,47 @@
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+  
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+  
+    input[type="text"],
+    textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 16px;
+    }
+  
+    button[type="submit"] {
+        background-color: #76C2AF;
+        color: #fff;
+        padding: 8px 16px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+      button[type="submit"]:hover {
+        background-color: #4CA090;
+      }
+      .custom-file-upload {
+        display: inline-block;
+        padding: 8px 16px;
+        background-color: #76C2AF;
+        color: #fff;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+      .custom-file-upload input[type="file"] {
+        display: none;
+      }
+      
+      .custom-file-upload:hover {
+        background-color: #4CA090;
+      }
+  }
