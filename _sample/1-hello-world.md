@@ -3,7 +3,9 @@ layout: article
 title: Python Program to Print Hello world!
 permalink: /sample/hello-world.html
 key: sample-hello-world
+date: 2023-08-01
 ---
+
 ### We are going to write our first Python Program
 #### Source Code
 

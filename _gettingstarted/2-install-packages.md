@@ -13,6 +13,7 @@ article_header:
   background_image:
     gradient: 'linear-gradient(135deg, #FFB800, #FF8100)'
     src: /docs/assets/images/cover3.jpg
+date: 2023-08-01
 ---
 ## What is a Package?
 A package contains all the files you need for a module.

@@ -13,6 +13,7 @@ article_header:
   background_image:
     gradient: 'linear-gradient(135deg, #2BF29F, #FFFF00)'
     src: /docs/assets/images/cover3.jpg
+date: 2023-08-01
 ---
 
 #### Prerequisites

@@ -1,28 +1,31 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-#
-# ,--------.      ,--.   ,--. ,--.
-# '--.  .--',---.  \  `.'  /,-'  '-.
-#    |  |  | .-. :  .'    \ '-.  .-'
-#    |  |  \   --. /  .'.  \  |  |
-#    `--'   `----''--'   '--' `--'
-
-
-
-
 ## => Site Settings
 ##############################
-text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
-highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
+text_skin: default 
+highlight_theme: default 
 url     : /
 baseurl : /
 title   : learn-pip-trends
-description: > # this means to ignore newlines until "Language & timezone"
+tagline : Learn everything about Python
+description: > 
   Learn everything about Python
+author : Ashok Tankala
+twitter:
+  username: piptrends
+  card: summary
+facebook:
+  app_id: 1234
+  publisher: 1234
+  admins: 1234
+logo: \assets\images\logo\Main Logo.png
+social:
+  name: pip Trends
+  links:
+    - https://facebook.com/piptrends
+    - https://www.instagram.com/piptrends
+    - https://twitter.com/piptrends
+    - https://www.youtube.com/@piptrends
+    - https://linkedin.com/company/pip-trends
+    - https://discord.gg/RdYEmSWP5t
 
 
 ## => Language and Timezone
@@ -41,10 +44,13 @@ author:
   bio       : I am an amazing person.
   email     : ashok.tankala@gmail.com
   blog      : https://blog.tanka.la/
-  youtube   : https://youtube.com/c/TankalaTelugu
-  twitter   : https://twitter.com/ashok_tankala
-  linkedin  : https://www.linkedin.com/in/ashoktankala/
-  github    : https://github.com/tankala
+  youtube   : /@piptrends
+  facebook  : /piptrends
+  instagram : /piptrends
+  discord   : /RdYEmSWP5t
+  twitter   : piptrends
+  linkedin  : /pip-trends
+  github    : /tankala
 
 
 ## => GitHub Repository (if the site is hosted by GitHub)
@@ -114,7 +120,7 @@ sharing:
 comments:
   provider: disqus
   disqus:
-    shortname: "your-disqus-shortname"
+    shortname: "piptrends"
 
 
 ## => Pageview
@@ -142,12 +148,12 @@ search:
 ## => Analytics
 ##############################
 analytics:
-  provider: false # false (default), "google", "custom"
+  provider: google
 
   ## Google Analytics
   google:
-    tracking_id : # Google Analytics id for the site
-    anonymize_ip: false # Anonymize IP tracking for Analytics
+    tracking_id : "G-714KN8K9WW"
+    anonymize_ip: true
 
 
 ## => Build
@@ -196,12 +202,13 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jemoji
+  - jekyll-seo-tag
 
 #collections
 collections:
   sample:
     output: true
-  getting_started:
+  gettingstarted:
     output: true
   course:
     output: true

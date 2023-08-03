@@ -3,6 +3,7 @@ layout: article
 title: Newsletter - Issue 001
 permalink: /page/single.html
 key: page-single
+date: 2023-08-01
 ---
 
 # Weekly Python Newsletter - Issue 001

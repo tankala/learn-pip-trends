@@ -1,3 +1,6 @@
 <!-- start custom head snippets -->
-
+{% if site.google_analytics and jekyll.environment == 'production' %}
+{% include analytics.html %}
+{% endif %}
+{% seo %}
 <!-- end custom head snippets -->

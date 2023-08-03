@@ -3,7 +3,9 @@ layout: article
 title: Python Program to Add Two Numbers
 permalink: /sample/add-numbers.html
 key: sample-add-numbers
+date: 2023-08-02
 ---
+
 ### We are going to write a Python Program to add two numbers
 
 In the program below, we've used the + operator to add two numbers.
