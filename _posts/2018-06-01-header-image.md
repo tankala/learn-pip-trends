@@ -4,7 +4,7 @@ title: Python-docx - Complete Guide
 tags: courses
 permalink: /courses/python-docx.html
 key: courses/python-docx
-cover: /assets/images/courses/Python-docx Icon.png
+cover: /assets/images/courses/Python-docx-Icon.png
 aside:
   toc: true
 article_header:

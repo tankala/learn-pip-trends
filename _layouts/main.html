@@ -4,10 +4,10 @@ layout: page
 <br>
 <h1> New Articles to Get Started with - </h1>
 
-{%- assign _page_articles_data_source_1 = page.articles.data_source_1 | default: layout.articles.data_source_1 -%}
+{%- assign _page_articles_gettingstarted = page.articles.gettingstarted | default: layout.articles.gettingstarted -%}
 
-{%- if _page_articles_data_source_1 -%}
-{%- assign _keys = _page_articles_data_source_1 | split: '.' -%}
+{%- if _page_articles_gettingstarted -%}
+{%- assign _keys = _page_articles_gettingstarted | split: '.' -%}
 {%- endif -%}
 
 {%- assign _articles = nil -%}
@@ -91,12 +91,13 @@ layout: page
 </div>
 {%- endif -%}
 
+
 <h1> New Sample Code - </h1>
 
-{%- assign _page_articles_data_source_2 = page.articles.data_source_2 | default: layout.articles.data_source_2 -%}
+{%- assign _page_articles_samplecode = page.articles.samplecode | default: layout.articles.samplecode -%}
 
-{%- if _page_articles_data_source_2 -%}
-{%- assign _keys = _page_articles_data_source_2 | split: '.' -%}
+{%- if _page_articles_samplecode -%}
+{%- assign _keys = _page_articles_samplecode | split: '.' -%}
 {%- endif -%}
 
 {%- assign _articles = nil -%}
@@ -183,10 +184,10 @@ layout: page
 
 <h1> New Courses - </h1>
 
-{%- assign _page_articles_data_source_3 = page.articles.data_source_3 | default: layout.articles.data_source_3 -%}
+{%- assign _page_articles_course = page.articles.course | default: layout.articles.course -%}
 
-{%- if _page_articles_data_source_3 -%}
-{%- assign _keys = _page_articles_data_source_3 | split: '.' -%}
+{%- if _page_articles_course -%}
+{%- assign _keys = _page_articles_course | split: '.' -%}
 {%- endif -%}
 
 {%- assign _articles = nil -%}
@@ -272,10 +273,10 @@ layout: page
 
 <h1> New Blogs - </h1>
 
-{%- assign _page_articles_data_source_4 = page.articles.data_source_4 | default: layout.articles.data_source_4 -%}
+{%- assign _page_articles_blog = page.articles.blog | default: layout.articles.blog -%}
 
-{%- if _page_articles_data_source_4 -%}
-{%- assign _keys = _page_articles_data_source_4 | split: '.' -%}
+{%- if _page_articles_blog -%}
+{%- assign _keys = _page_articles_blog | split: '.' -%}
 {%- endif -%}
 
 {%- assign _articles = nil -%}
@@ -361,10 +362,10 @@ layout: page
 
 <h1> New Newsletters - </h1>
 
-{%- assign _page_articles_data_source_5 = page.articles.data_source_5 | default: layout.articles.data_source_5 -%}
+{%- assign _page_articles_newsletter = page.articles.newsletter | default: layout.articles.newsletter -%}
 
-{%- if _page_articles_data_source_5 -%}
-{%- assign _keys = _page_articles_data_source_5 | split: '.' -%}
+{%- if _page_articles_newsletter -%}
+{%- assign _keys = _page_articles_newsletter | split: '.' -%}
 {%- endif -%}
 
 {%- assign _articles = nil -%}

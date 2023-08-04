@@ -12,11 +12,7 @@ author : Ashok Tankala
 twitter:
   username: piptrends
   card: summary
-facebook:
-  app_id: 1234
-  publisher: 1234
-  admins: 1234
-logo: \assets\images\logo\Main Logo.png
+logo: \assets\images\logo\Main-Logo.png
 social:
   name: pip Trends
   links:
@@ -42,8 +38,8 @@ author:
   url       : https://ashok.tanka.la/
   avatar    : # path or url of avatar image (square)
   bio       : I am an amazing person.
-  email     : ashok.tankala@gmail.com
-  blog      : https://blog.tanka.la/
+  email     : ashok@piptrends.com
+  blog      : blog.piptrends.com
   youtube   : /@piptrends
   facebook  : /piptrends
   instagram : /piptrends
@@ -138,7 +134,7 @@ pageview:
 ## => Search
 ##############################
 search:
-  provider: false # "default" (default), false, "google", "custom"
+  provider: "default" # "default" (default), false, "google", "custom"
 
   ## Google Custom Search Engine
   google:
@@ -206,7 +202,7 @@ plugins:
 
 #collections
 collections:
-  sample:
+  samplecode:
     output: true
   gettingstarted:
     output: true

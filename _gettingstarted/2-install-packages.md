@@ -1,9 +1,13 @@
 ---
 layout: article
 title: Installing Packages Using pip
+description: A guide on how to install Python packages using pip, the Python package manager.
+keywords: python, pip, packages, installation, tutorial
+tags: [python, pip, packages, installation, tutorial]
 permalink: /getting-started/install-packages.html
 key: getting-started-install-packages
-cover: /assets/images/getting-started/pip Logo.png
+image: /assets/images/getting-started/pip-Logo.png
+cover: /assets/images/getting-started/pip-Logo.png
 aside:
   toc: true
 article_header:
@@ -15,6 +19,7 @@ article_header:
     src: /docs/assets/images/cover3.jpg
 date: 2023-08-01
 ---
+
 ## What is a Package?
 A package contains all the files you need for a module.
 Modules are Python code libraries you can include in your project.
