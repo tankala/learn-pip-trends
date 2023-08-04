@@ -1,0 +1,75 @@
+---
+layout: article
+---
+{{content}}
+<script src="./assets/ckeditor/ckeditor.js"></script>
+<form action="https://formspree.io/f/mbjvdgjg" method="POST" enctype="multipart/form-data">
+    <label for="article-title">Article Title:</label>
+    <input name="article-title" type="text" id="article-title">
+    <br>
+    <label for="cover" class="custom-file-upload">
+        <span name="cover-file-name" id="cover-file-name">Upload Cover</span>
+        <input type="file" id="cover" accept="image/*" onchange="updateFileName('cover')">
+    </label>
+
+    <label for="icon" class="custom-file-upload">
+        <span name="icon-file-name" id="icon-file-name">Upload Icon</span>
+        <input type="file" id="icon" accept="image/*" onchange="updateFileName('icon')">
+    </label>
+    <label for="author-name">Author Name:</label>
+    <input type="text" name="author-name" id="author-name">
+    <br>
+    <label for="website">Website:</label>
+    <input type="text" id="website" name="website">
+    <br>
+    <label for="github">GitHub:</label>
+    <input type="text" id="github" name="github"''>
+    <br>
+    <label for="facebook">Facebook:</label>
+    <input type="text" id="facebook" name="facebook">
+    <br>
+    <label for="linkedin">LinkedIn:</label>
+    <input type="text" id="linkedin" name="linkedin">
+    <br>
+    <label for="twitter">Twitter:</label>
+    <input type="text" id="twitter" name="twitter">
+    <br>
+    <textarea name="editor" id="editor" rows="100" cols="80"></textarea>
+    <br>
+    <button type="submit">Submit</button>
+
+    <br><br>
+
+    <strong>Agreement:</strong>
+    By submitting this article, you agree that it is original content created by you, and you grant learn-pip-trends
+    the right to edit and publish the article on our website. You also confirm that you have read and understood the
+    <a href="./contributing">contributing guidelines.</a>
+    <br>
+    Thank you for contributing to the Python community and helping us share valuable knowledge about pip and Python
+    packaging! We look forward to reviewing your submission.
+
+</form>
+
+<script>
+    document.addEventListener("DOMContentLoaded",function () {
+        ClassicEditor
+            .create(document.querySelector('#editor'))
+            .then(editor => {
+                console.log('Editor was initialized successfully!');
+            })
+            .catch(error => {
+                console.error('Error initializing the editor:',error);
+            });
+    });
+
+    function updateFileName(inputId) {
+        const input = document.getElementById(inputId);
+        const fileNameDisplay = document.getElementById(`${inputId}-file-name`);
+        const initial = fileNameDisplay.textContent
+        if (input.files.length > 0) {
+            fileNameDisplay.textContent = input.files[0].name;
+        } else {
+            fileNameDisplay.textContent = initial;
+        }
+    }
+</script>
