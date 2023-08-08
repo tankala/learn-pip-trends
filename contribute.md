@@ -3,7 +3,7 @@ layout: page
 title: Contribute an article
 description: Contribute an article to learn-piptrends.com
 keywords: python, guidelines, pipTrends, contributions
-image: /assets/images/general/contribute-cover.png
+image: ../assets/images/general/contribute-cover.png
 ---
 Thank you for your interest in contributing an article to learn-pip-trends! We welcome well-written and insightful articles that cover topics related to the latest trends and updates in the world of Python packaging and distribution using pip.
 

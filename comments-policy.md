@@ -3,7 +3,7 @@ layout: article
 title: Comments Policy
 description: Comments policy for learn-piptrends.com
 keywords: python, guidelines, pipTrends, comments
-image: /assets/images/general/general-cover.png
+image: ../assets/images/general/general-cover.png
 ---
 
 We welcome all python lovers to learn-pip-trends, a platform to learn anything about Python and Python packages. We believe in fostering a friendly and inclusive community where everyone can share their knowledge, insights, and opinions. To ensure a positive and enriching experience for all users, we have established the following comments policy:
