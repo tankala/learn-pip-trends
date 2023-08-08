@@ -270,9 +270,12 @@ Python-docx can be used for a variety of use cases and projects, making it a ver
 In this course, we have explored the versatile and user-friendly Python-docx library, which empowers users to interact with Microsoft Word documents effortlessly. From creating new documents and adding text, images, and tables to formatting content and saving the final result, learners have acquired a comprehensive set of skills to tackle a wide range of document processing tasks. By understanding Python-docx's capabilities, learners can now confidently embark on projects such as automated report generation, resume builders, and educational tools, streamlining document management and unleashing the potential of this powerful library. Armed with this newfound knowledge, learners can enhance productivity, save valuable time, and explore exciting opportunities in their document-centric endeavors.
 
 ## Useful Links
-* [python-docx 0.8.11 documentation](https://python-docx.readthedocs.io/en/latest/)
-* [PyPi - python-docx](https://pypi.org/project/python-docx/)
-* [python-docx GitHub - Create and modify Word documents with Python](https://github.com/python-openxml/python-docx)
-* [Python - Working with .docx module](https://www.geeksforgeeks.org/python-working-with-docx-module/)
-* [Python In Office - Creating A Word Docx File In Python](https://www.youtube.com/watch?v=7ljbGXSxMw4&ab_channel=PythonInOffice)
+<ul>
+    <li><a href="https://python-docx.readthedocs.io/en/latest/" target="_blank">python-docx 0.8.11 documentation</a></li>
+    <li><a href="https://pypi.org/project/python-docx/" target="_blank">PyPi - python-docx</a></li>
+    <li><a href="https://github.com/python-openxml/python-docx" target="_blank">python-docx GitHub - Create and modify Word documents with Python</a></li>
+    <li><a href="https://www.geeksforgeeks.org/python-working-with-docx-module/" target="_blank">Python - Working with .docx module</a></li>
+    <li><a href="https://www.youtube.com/watch?v=7ljbGXSxMw4&ab_channel=PythonInOffice" target="_blank">Python In Office - Creating A Word Docx File In Python</a></li>
+</ul>
+
 

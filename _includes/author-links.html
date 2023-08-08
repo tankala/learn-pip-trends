@@ -78,7 +78,7 @@
 
     {%- if _author.discord -%}
       <li title="{{ _locale_string_follow | replace: '[NAME]', 'discord' }}">
-        <a class="button button--circle discord-button" itemprop="sameAs" href="https://www.discord.gg/~{{ _author.discord }}" target="_blank">
+        <a class="button button--circle discord-button" itemprop="sameAs" href="https://www.discord.gg/invite/{{ _author.discord }}" target="_blank">
           <div class="icon">{%- include svg/icon/social/discord.svg -%}</div>
         </a>
       </li>
