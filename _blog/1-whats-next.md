@@ -6,7 +6,7 @@ keywords: python, pip, piptrends, future developments, blog
 tags: [python, pip, piptrends, future developments, blog]
 permalink: /blogs/whats-next.html
 key: blogs/whats-next
-image: /assets/images/blogs/Blog-Cover-1.png
+image: https://learn.piptrends.com/assets/images/blogs/Blog-Cover-1.png
 cover: /assets/images/blogs/Blog-1.png
 article_header:
   type: cover
