@@ -6,7 +6,7 @@ keywords: python, windows, installation, beginners, programming
 tags: [python, windows, installation, beginners, programming]
 permalink: /getting-started/install-python.html
 key: getting-started-install-python
-image: ../assets/images/getting-started/getting-started-python-installation-cover.png
+image: ./assets/images/getting-started/getting-started-python-installation-cover.png
 cover: /assets/images/getting-started/Python-Windows-Install-Logo.png
 aside:
   toc: true
