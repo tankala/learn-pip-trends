@@ -6,7 +6,7 @@ keywords: python-docx, python library, Microsoft Word, documents, tutorial
 tags: [python-docx, python library, Microsoft Word, documents, tutorial]
 permalink: /getting-started/python-docx.html
 key: getting-started-python-docx
-image: ../assets/images/getting-started/getting-started-python-docs-cover.png
+image: ../../assets/images/getting-started/getting-started-python-docs-cover.png
 cover: /assets/images/getting-started/Python-docx-Icon.png
 aside:
   toc: true

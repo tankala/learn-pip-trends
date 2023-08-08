@@ -3,7 +3,7 @@ layout: articles
 title: Courses
 description: Simple and comprehensive courses to master Python
 keywords: python, tutorials, pipTrends, courses
-image: ../assets/images/general/courses-cover.png
+image: ../../assets/images/general/courses-cover.png
 articles:
   data_source: site.course
   show_excerpt: true

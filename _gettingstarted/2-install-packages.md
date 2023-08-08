@@ -6,7 +6,7 @@ keywords: python, pip, packages, installation, tutorial
 tags: [python, pip, packages, installation, tutorial]
 permalink: /getting-started/install-packages.html
 key: getting-started-install-packages
-image: ../assets/images/getting-started/getting-started-pip-introduction-cover.png
+image: ../../assets/images/getting-started/getting-started-pip-introduction-cover.png
 cover: /assets/images/getting-started/pip-Logo.png
 aside:
   toc: true
