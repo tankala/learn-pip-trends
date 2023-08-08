@@ -40,13 +40,13 @@ author:
   bio       : I am an amazing person.
   email     : ashok@piptrends.com
   blog      : blog.piptrends.com
-  youtube   : /@piptrends
-  facebook  : /piptrends
-  instagram : /piptrends
-  discord   : /RdYEmSWP5t
+  youtube   : "@piptrends"
+  facebook  : piptrends
+  instagram : piptrends
+  discord   : RdYEmSWP5t
   twitter   : piptrends
-  linkedin  : /pip-trends
-  github    : /tankala
+  linkedin  : pip-trends
+  github    : tankala
 
 
 ## => GitHub Repository (if the site is hosted by GitHub)
