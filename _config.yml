@@ -182,7 +182,7 @@ defaults:
       type: posts
     values:
       layout: article
-      image: ../../assets/images/general/general-cover.png
+      image: https://learn.piptrends.com/assets/images/general/general-cover.png
       sharing: true
       license: true
       aside:
