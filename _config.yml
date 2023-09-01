@@ -116,7 +116,7 @@ sharing:
 comments:
   provider: disqus
   disqus:
-    shortname: "piptrends"
+    shortname: "learn-pip-trends"
 
 
 ## => Pageview
