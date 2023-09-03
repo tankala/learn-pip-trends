@@ -7,6 +7,7 @@ tags: [python, addition, arithmetic, numbers, sample code, tutorial]
 permalink: /sample-code/add-numbers.html
 key: sample-add-numbers
 date: 2023-08-02
+comments: true
 ---
 
 ### We are going to write a Python Program to add two numbers

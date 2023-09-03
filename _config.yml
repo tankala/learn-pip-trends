@@ -113,11 +113,7 @@ sharing:
 
 ## => Comments
 ##############################
-comments:
-  provider: disqus
-  disqus:
-    shortname: "learn-pip-trends"
-
+disqus_shortname: "learn-pip-trends"
 
 ## => Pageview
 ##############################

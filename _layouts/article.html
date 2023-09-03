@@ -109,7 +109,9 @@ type: article
     {%- include article-footer.html -%}
     {%- include article-section-navigator.html -%}
   </div>
-
+  {%- if site.disqus_shortname and page.comments -%}
+  {% include disqus.html %}
+{%- endif %}
 </div>
 
 <script>
