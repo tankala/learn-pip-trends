@@ -62,8 +62,34 @@ html,
   .toc-aside {
     padding: map-get($spacers, 5) 0 map-get($spacers, 3) map-get($spacers, 5);
   }
+  .contribute-box{
+    padding: map-get($spacers, 5) 0 map-get($spacers, 3) map-get($spacers, 5);
+    width: 100%;
+    text-align: center;
+    a {
+      color: #ffffff;
+  
+      &:hover {
+        color: #ffffff;
+        text-decoration: none;
+      }
+    }
 }
-
+.contribute-button {
+  background-color: #76C2AF;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  
+  &:hover {
+    background-color: #616a6f;
+  }
+}
+}
 .page__actions {
   position: fixed;
   bottom: map-get($spacers, 5);

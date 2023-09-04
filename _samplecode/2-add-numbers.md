@@ -6,6 +6,8 @@ keywords: python, addition, arithmetic, numbers, sample code, tutorial
 tags: [python, addition, arithmetic, numbers, sample code, tutorial]
 permalink: /sample-code/add-numbers.html
 key: sample-add-numbers
+aside:
+  toc: true
 date: 2023-08-02
 comments: true
 ---
