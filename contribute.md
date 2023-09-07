@@ -12,8 +12,14 @@ Before submitting your article, we kindly ask you to read and follow our [contri
 
 - <a href="https://github.com/tankala/learn-pip-trends/fork" target="_blank">Fork this repository</a>
 - Create a new branch: `git checkout -b your-branch-name`
+- Add yourself as an author in ```_data\authors.yml``` in the following format:
+```yml
+shortname:
+  picture: # replace with avatar 
+  name: # full name
+  twitter: # twitter handle
+```
 - Create an article `(.md)` and store it in the respective folder following the article structure, including the following front matter:
-
 ```markdown
 ---
 layout: article
@@ -36,9 +42,9 @@ article_header: <Optional - Modify content as per requirement>
         src: <image path>
 date: <Repalce with date of publication>
 comments: true
+author : <Replace with author shortname added in _data\authors.yml>
 ---
 ```
-
 - Commit your changes: git commit -m "Brief description of your changes"
 - Push your branch: git push origin your-branch-name
 - Create a pull request.
