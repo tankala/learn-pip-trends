@@ -18,6 +18,7 @@ article_header:
     gradient: 'linear-gradient(135deg, #2BF29F, #FFFF00)'
     src: /assets/images/getting-started/getting-started-python-installation-cover.png
 date: 2023-08-01
+comments: true
 ---
 
 #### Prerequisites

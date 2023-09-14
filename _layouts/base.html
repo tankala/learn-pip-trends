@@ -14,6 +14,9 @@ layout: none
     </script>
     {%- include scripts/variables.html -%}
     {% seo %}
+    {% if page.keywords %}
+    <meta name="keywords" content="{{ page.keywords | join: ', ' }}">
+    {% endif %}
   </head>
   <body>
     <div class="root" data-is-touch="false">
@@ -22,5 +25,6 @@ layout: none
     <script>
       {%- include scripts/common.js -%}
     </script>
+    <script id="dsq-count-scr" src="//learn-pip-trends-1.disqus.com/count.js" async></script>
   </body>
 </html>

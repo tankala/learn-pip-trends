@@ -7,6 +7,7 @@ tags: [newsletter, issue 001, updates, news, industry]
 permalink: /newsletter/issue-001.html
 key: newsletter-issue-001
 date: 2023-08-01
+comments: true
 ---
 
 # Weekly Python Newsletter - Issue 001

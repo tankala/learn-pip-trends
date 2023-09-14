@@ -6,8 +6,7 @@ url     : /
 baseurl : /
 title   : learn-pip-trends
 tagline : Learn everything about Python
-description: > 
-  Learn everything about Python
+description: Learn everything about Python
 author : Ashok Tankala
 twitter:
   username: piptrends
@@ -74,7 +73,7 @@ license: CC-BY-NC-4.0 # "CC-BY-4.0", "CC-BY-SA-4.0", "CC-BY-NC-4.0", "CC-BY-ND-4
 
 ## TOC
 toc:
-  selectors: "h1,h2,h3,h4" 
+  selectors: "h1,h2" 
 
 
 ## => Markdown Enhancements
@@ -113,11 +112,7 @@ sharing:
 
 ## => Comments
 ##############################
-comments:
-  provider: disqus
-  disqus:
-    shortname: "learn-pip-trends"
-
+disqus_shortname: "learn-pip-trends"
 
 ## => Pageview
 ##############################
