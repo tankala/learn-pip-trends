@@ -2,10 +2,7 @@
 layout: article
 title: Python-docx
 description: A comprehensive guide on how to work with Python-docx, a Python library for creating and updating Microsoft Word files.
-keywords: python-docx, python library, Microsoft Word, documents, tutorial
 tags: [python-docx, python library, Microsoft Word, documents, tutorial]
-permalink: /getting-started/python-docx.html
-key: getting-started-python-docx
 image: https://learn.piptrends.com/assets/images/getting-started/getting-started-python-docs-cover.png
 cover: /assets/images/getting-started/Python-docx-Icon.png
 article_header:

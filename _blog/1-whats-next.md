@@ -2,10 +2,7 @@
 layout: article
 title: learn-pip-trends - What's Next?
 description: Discover the latest features and future developments at learn-pip-trends.
-keywords: python, pip, piptrends, future developments, blog
 tags: [python, pip, piptrends, future developments, blog]
-permalink: /blogs/whats-next.html
-key: blogs/whats-next
 image: https://learn.piptrends.com/assets/images/blogs/Blog-Cover-1.png
 cover: /assets/images/blogs/Blog-1.png
 article_header:

@@ -2,10 +2,7 @@
 layout: article
 title: Python Program to Add Two Numbers
 description: Learn how to write a simple Python program to add two numbers and display the result.
-keywords: python, addition, arithmetic, numbers, sample code, tutorial
 tags: [python, addition, arithmetic, numbers, sample code, tutorial]
-permalink: /sample-code/add-numbers.html
-key: sample-add-numbers
 date: 2023-08-02
 ---
 

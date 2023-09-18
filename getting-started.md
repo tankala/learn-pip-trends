@@ -2,7 +2,6 @@
 layout: articles
 title: Getting Started
 description: Get started with Python within no time
-keywords: python, tutorials, pipTrends
 image: https://learn.piptrends.com/assets/images/general/getting-started-cover.png
 articles:
   data_source: site.gettingstarted

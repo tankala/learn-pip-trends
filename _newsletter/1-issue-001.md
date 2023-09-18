@@ -2,10 +2,7 @@
 layout: article
 title: Newsletter - Issue 001
 description: Check out the latest edition of our newsletter featuring exciting updates and news in the industry.
-keywords: newsletter, issue 001, updates, news, industry
 tags: [newsletter, issue 001, updates, news, industry]
-permalink: /newsletter/issue-001.html
-key: newsletter-issue-001
 date: 2023-08-01
 ---
 
