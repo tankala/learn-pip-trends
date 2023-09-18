@@ -8,17 +8,12 @@ permalink: /getting-started/python-docx.html
 key: getting-started-python-docx
 image: https://learn.piptrends.com/assets/images/getting-started/getting-started-python-docs-cover.png
 cover: /assets/images/getting-started/Python-docx-Icon.png
-aside:
-  toc: true
 article_header:
   type: overlay
   theme: dark
-  background_color: '#203028'
   background_image:
-    gradient: 'linear-gradient(135deg, rgb(114, 255, 220,0.85), rgb(0, 141, 244, 0.85))'
-    src: /docs/assets/images/cover3.jpg
+    gradient: 'linear-gradient(135deg, #90FFDC, #008DF4)'
 date: 2023-08-02
-comments: true
 author: ayush
 ---
 

@@ -8,17 +8,12 @@ permalink: /getting-started/install-packages.html
 key: getting-started-install-packages
 image: https://learn.piptrends.com/assets/images/getting-started/getting-started-pip-introduction-cover.png
 cover: /assets/images/getting-started/pip-Logo.png
-aside:
-  toc: true
 article_header:
   type: overlay
   theme: dark
-  background_color: '#203028'
   background_image:
     gradient: 'linear-gradient(135deg, #FFB800, #FF8100)'
-    src: /docs/assets/images/cover3.jpg
 date: 2023-08-01
-comments: true
 ---
 
 ## What is a Package?

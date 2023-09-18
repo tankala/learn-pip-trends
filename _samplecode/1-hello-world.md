@@ -6,10 +6,7 @@ keywords: python, hello world, sample code, tutorial
 tags: [python, hello world, sample code, tutorial]
 permalink: /sample-code/hello-world.html
 key: sample-hello-world
-aside:
-  toc: true
 date: 2023-08-01
-comments: true
 ---
 
 ### We are going to write our first Python Program
