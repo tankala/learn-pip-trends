@@ -171,20 +171,7 @@ exclude:
   - /test
   - /vendor
 
-defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: article
-      image: https://learn.piptrends.com/assets/images/general/general-cover.png
-      sharing: true
-      license: true
-      aside:
-        toc: true
-      show_edit_on_github: true
-      show_subscribe: true
-      pageview: true
+
 
 
 ## => Plugins
@@ -208,3 +195,44 @@ collections:
     output: true
   newsletter:
     output: true
+
+defaults:
+  - 
+    scope:
+      path: ""
+      type: "gettingstarted"
+    values:
+      layout: article
+      aside:
+        toc: true
+      comments: true
+  - 
+    scope:
+      path: ""
+      type: "samplecode"
+    values:
+      layout: article
+      aside:
+        toc: true
+      comments: true
+  -
+    scope:
+      path: ""
+      type: "blog"
+    values:
+      layout: "article"
+      comments: true
+  -
+    scope:
+      path: ""
+      type: "course"
+    values:
+      layout: "article"
+      comments: true
+  -
+    scope:
+      path: ""
+      type: "newsletter"
+    values:
+      layout: "article"
+      comments: true

@@ -2,7 +2,6 @@
 layout: article
 title: Contribute an article
 description: Contribute an article to learn-piptrends.com
-keywords: python, guidelines, pipTrends, contributions
 image: https://learn.piptrends.com/assets/images/general/contribute-cover.png
 ---
 
@@ -25,23 +24,16 @@ shortname:
 layout: article
 title: <Replace with your article title>
 description: <Replace with your article description>
-keywords: <Replace with your article keywords(for SEO)>
 tags: <Replace with your article tags here>
-permalink: <Replace with a permalink based on the section you want to contribute an article to>
-key: <Replace with your article key here>
-image: <Optional - Replace with image path>
-cover: <Optional - Replace with cover path>
-aside:
-    toc: true
+image: <Optional - Replace with image path, this path has to be a complete url>
+cover: <Optional - Replace with cover path, this path can be relative>
 article_header: <Optional - Modify content as per requirement>
     type: overlay
     theme: dark
-    background_color: '#ffffff'
     background_image:
         gradient: 'linear-gradient(135deg, #ffffff, #000000)'
         src: <image path>
 date: <Repalce with date of publication>
-comments: true
 author : <Replace with author shortname added in _data\authors.yml>
 ---
 ```

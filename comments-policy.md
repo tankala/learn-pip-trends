@@ -2,7 +2,6 @@
 layout: article
 title: Comments Policy
 description: Comments policy for learn-piptrends.com
-keywords: python, guidelines, pipTrends, comments
 image: https://learn.piptrends.com/assets/images/general/general-cover.png
 ---
 

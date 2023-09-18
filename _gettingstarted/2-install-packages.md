@@ -2,23 +2,15 @@
 layout: article
 title: Installing Packages Using pip
 description: A guide on how to install Python packages using pip, the Python package manager.
-keywords: python, pip, packages, installation, tutorial
 tags: [python, pip, packages, installation, tutorial]
-permalink: /getting-started/install-packages.html
-key: getting-started-install-packages
 image: https://learn.piptrends.com/assets/images/getting-started/getting-started-pip-introduction-cover.png
 cover: /assets/images/getting-started/pip-Logo.png
-aside:
-  toc: true
 article_header:
   type: overlay
   theme: dark
-  background_color: '#203028'
   background_image:
     gradient: 'linear-gradient(135deg, #FFB800, #FF8100)'
-    src: /docs/assets/images/cover3.jpg
 date: 2023-08-01
-comments: true
 ---
 
 ## What is a Package?
