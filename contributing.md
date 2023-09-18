@@ -2,7 +2,6 @@
 layout: article
 title: Contributing Guidelines
 description: Guidelines to contribute an article to learn-piptrends.com
-keywords: python, guidelines, pipTrends, contributions
 image: https://learn.piptrends.com/assets/images/general/contribute-cover.png
 ---
 
