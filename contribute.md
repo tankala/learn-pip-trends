@@ -9,7 +9,7 @@ Thank you for your interest in contributing an article to learn-pip-trends! We w
 
 Before submitting your article, we kindly ask you to read and follow our [contributing guidelines](./contributing) to ensure a smooth and efficient review process.
 
-- <a href="https://github.com/tankala/learn-pip-trends/fork" target="_blank">Fork this repository</a>
+- [Fork this repository](https://github.com/tankala/learn-pip-trends/fork){:target="_blank"}
 - Create a new branch: `git checkout -b your-branch-name`
 - Add yourself as an author in ```_data\authors.yml``` in the following format:
 ```yml
