@@ -2,7 +2,10 @@
 <footer class="footer py-4 js-page-footer">
   <div class="main">
     <center><a href = "../contribute">Click here</a> to contribute an article to learn-pip-trends.com</center>
-    <center><a href = "https://piptrends.substack.com/">Click here</a> to subscribe to our newsletter</center>
+    <center>
+      <iframe src="https://piptrends.substack.com/embed" width="60%" height="35%" style="background:#f2f2f2;" frameborder="0" scrolling="no"></iframe>
+    </center>
+    
     {%- assign _site_author = site.author -%}
     {%- if _site_author.type == 'organization' -%}
       {%- assign _site_author_itemtype = 'http://schema.org/Organization' -%}
