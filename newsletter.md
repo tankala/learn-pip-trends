@@ -9,5 +9,5 @@ articles:
   show_excerpt: true
   show_readmore: true
   show_info: true
-redirect_url: https://piptrends.substack.com/
+redirect_to: https://piptrends.substack.com/
 ---
