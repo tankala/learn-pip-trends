@@ -47,3 +47,13 @@ header:
       en-AU   : *EN
       # @end locale config
     url: /newsletter.html
+
+  - titles:
+      # @start locale config
+      en      : &EN       Pip Trends Home
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      # @end locale config
+    url: /pip-trends-home.html

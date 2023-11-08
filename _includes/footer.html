@@ -2,7 +2,7 @@
 <footer class="footer py-4 js-page-footer">
   <div class="main">
     <center><a href = "../contribute">Click here</a> to contribute an article to learn-pip-trends.com</center>
-    
+    <center><a href = "https://piptrends.substack.com/">Click here</a> to subscribe to our newsletter</center>
     {%- assign _site_author = site.author -%}
     {%- if _site_author.type == 'organization' -%}
       {%- assign _site_author_itemtype = 'http://schema.org/Organization' -%}
@@ -25,18 +25,6 @@
     </div>
     {%- include snippets/get-locale-string.html key='COPYRIGHT_DATES' -%}
     {%- assign _locale_copyright_dates = __return -%}
-    <br>
-    <div class="main">
-      <center>
-        <a href = "../">Home</a> &nbsp; &nbsp;
-        <a href = "../getting-started.html">Getting Started</a> &nbsp; &nbsp;
-        <a href ="../sample-code.html">Sample Code</a> &nbsp; &nbsp;
-        <a href="../courses.html">Courses</a> &nbsp; &nbsp;
-        <a href="../blog.html">Blog</a> &nbsp; &nbsp;
-        <a href="https://piptrends.substack.com" target="_blank">Newsletter</a> &nbsp; &nbsp;
-        <a href="http://piptrends.com" target="_blank">Pip Trends Home</a>
-      </center>
-    </div>
     <div class="site-info mt-2">
       <div>
         {%- include snippets/get-locale-string.html key='COPYRIGHT_DATES' -%}

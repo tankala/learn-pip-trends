@@ -171,9 +171,6 @@ exclude:
   - /test
   - /vendor
 
-
-
-
 ## => Plugins
 ##############################
 plugins:

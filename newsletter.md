@@ -1,5 +1,5 @@
 ---
-layout: redirect
+layout: articles
 title: Newsletter
 description: Weekly Python Newsletter to stay updated with all trends
 image: https://learn.piptrends.com/assets/images/general/newsletter-cover.png
