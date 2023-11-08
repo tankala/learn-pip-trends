@@ -1,0 +1,19 @@
+---
+layout: none
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="0;url= index.html">
+  <title>{{ page.title }}</title>
+  <script type="text/javascript">
+    window.addEventListener("DOMContentLoaded", function() {
+      var a = document.createElement("a");
+      a.href = "{{ page.redirect_url }}";
+      a.target = "_blank";
+      a.click();
+    });
+  </script>
+</head>
+</html>
