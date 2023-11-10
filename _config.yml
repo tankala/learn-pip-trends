@@ -171,9 +171,6 @@ exclude:
   - /test
   - /vendor
 
-
-
-
 ## => Plugins
 ##############################
 plugins:
@@ -192,8 +189,6 @@ collections:
   course:
     output: true
   blog:
-    output: true
-  newsletter:
     output: true
 
 defaults:
@@ -226,13 +221,6 @@ defaults:
     scope:
       path: ""
       type: "course"
-    values:
-      layout: "article"
-      comments: true
-  -
-    scope:
-      path: ""
-      type: "newsletter"
     values:
       layout: "article"
       comments: true

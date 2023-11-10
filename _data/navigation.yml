@@ -46,4 +46,14 @@ header:
       en-CA   : *EN
       en-AU   : *EN
       # @end locale config
-    url: /newsletter.html
+    url: https://piptrends.substack.com/
+
+  - titles:
+      # @start locale config
+      en      : &EN       Pip Trends Home
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      # @end locale config
+    url: https://piptrends.com/
