@@ -1,17 +1,20 @@
-<hr>
-<footer class="footer py-4 js-page-footer" >
+<footer class="footer py-4 js-page-footer">
   <div class="main">
-    <center><a href = "../contribute">Click here</a> to contribute an article to learn-pip-trends.com</center>
+    <center><a href="../contribute">Click here</a> to contribute an article to learn-pip-trends.com</center>
     <center>
-      <p style="padding-top:2%;">Stay Ahead of the Curve: Get the Pip Trends Weekly Digest!</p>
-      <iframe src="https://piptrends.substack.com/embed" width="100%" height="180px" style="background:#ffffff;" frameborder="0" scrolling="no"></iframe>
+      <div style="background-color: #ffffff;">
+        <p style="padding-top:2%;">Stay Ahead of the Curve: Get the Pip Trends
+          Weekly Digest!</p>
+        <iframe src="https://piptrends.substack.com/embed" width="100%" height="180px" style="background:#ffffff;"
+          frameborder="0" scrolling="no"></iframe>
+      </div>
     </center>
-    
+    <br>
     {%- assign _site_author = site.author -%}
     {%- if _site_author.type == 'organization' -%}
-      {%- assign _site_author_itemtype = 'http://schema.org/Organization' -%}
+    {%- assign _site_author_itemtype = 'http://schema.org/Organization' -%}
     {%- else -%}
-      {%- assign _site_author_itemtype = 'http://schema.org/Person' -%}
+    {%- assign _site_author_itemtype = 'http://schema.org/Person' -%}
     {%- endif -%}
 
     <div itemscope itemtype="{{ _site_author_itemtype }}">
@@ -21,7 +24,7 @@
       {%- assign _site_author_url = __return -%}
       <meta itemprop="url" content="{{ _site_author_url }}">
       {%- if _site_author.bio -%}
-        <meta itemprop="description" content="{{ _site_author.bio }}">
+      <meta itemprop="description" content="{{ _site_author.bio }}">
       {%- endif -%}
       <div class="footer__author-links">
         {%- include author-links.html author=_site_author -%}
