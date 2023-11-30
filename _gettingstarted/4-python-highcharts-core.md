@@ -100,11 +100,11 @@ advanced_chart.save_file('advanced_chart.html')
 
 ## We have Extended Libraries 
 [For Stocks charts](https://www.highcharts.com/products/stock/){:target="_blank"}: ```pip install highcharts-stocks```
-[For Maps charts](https://www.highcharts.com/products/maps/){:target="_blank"}:```pip install highcharts-maps```
-[For Gantt charts](https://www.highcharts.com/products/gantt/){:target="_blank"}:```pip install highcharts-gantt```
+__[For Maps charts](https://www.highcharts.com/products/maps/){:target="_blank"}:```pip install highcharts-maps```
+__[For Gantt charts](https://www.highcharts.com/products/gantt/){:target="_blank"}:```pip install highcharts-gantt```
 
 ## Demo Url:
-[https://www.highcharts.com/demo] (https://www.highcharts.com/products/stock/){:target="_blank"}
+[https://www.highcharts.com/demo](https://www.highcharts.com/products/stock/){:target="_blank"}
 
 ## Conclusion:
 Integrating Highcharts into your Python projects becomes a breeze with 'highcharts-core'. This package opens up a world of possibilities for creating visually appealing and informative charts directly from your Python scripts, whether you're a data scientist, analyst, or developer. Investigate the extensive documentation and examples available to fully utilize 'highcharts-core' in your next data visualization project.
