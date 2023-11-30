@@ -108,29 +108,3 @@ advanced_chart.save_file('advanced_chart.html')
 
 ## Conclusion:
 Integrating Highcharts into your Python projects becomes a breeze with 'highcharts-core'. This package opens up a world of possibilities for creating visually appealing and informative charts directly from your Python scripts, whether you're a data scientist, analyst, or developer. Investigate the extensive documentation and examples available to fully utilize 'highcharts-core' in your next data visualization project.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-- **Word Document Conversion:** Create a script to convert Word documents to other formats, such as PDF, HTML, or plain text. This can be useful for archiving, sharing, or publishing documents in different formats.
-
-
-## Useful Links
-- [python-docx 0.8.11 documentation](https://python-docx.readthedocs.io/en/latest/){:target="_blank"}
-- [PyPi - python-docx](https://pypi.org/project/python-docx/){:target="_blank"}
-- [Python - Working with .docx module](https://www.geeksforgeeks.org/python-working-with-docx-module/){:target="_blank"}
-- [python-docx GitHub - Create and modify Word documents with Python](https://github.com/python-openxml/python-docx){:target="_blank"}
-- [Python In Office - Creating A Word Docx File In Python](https://www.youtube.com/watch?v=7ljbGXSxMw4&ab_channel=PythonInOffice){:target="_blank"}
-
