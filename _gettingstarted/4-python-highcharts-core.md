@@ -4,7 +4,7 @@ title: Highcharts-core
 description: A comprehensive guide on how to work with Highchats-core, a Python library for creating dynamic charts.
 tags: [highcharts-core, charts, python, pip]
 image: https://learn.piptrends.com/assets/images/getting-started/getting-started-python-docs-cover.png
-cover: /assets/images/getting-started/Python-docx-Icon.png
+cover: /assets/images/getting-started/highcharts-logo.png
 article_header:
   type: overlay
   theme: dark
@@ -59,6 +59,7 @@ chart.save_file('my_chart.html')
 ```
 
 In this example, we create a basic line chart with specified x-axis categories, y-axis title, and a data series. The resulting chart is saved as an HTML file (`my_chart.html`), which can be opened in any web browser.
+![Basic Chart](./../assets/images/getting-started/highcharts-chart1.png)
 
 
 ## Advanced Features:
@@ -97,6 +98,7 @@ advanced_options = {
 advanced_chart.set_dict_options(advanced_options)
 advanced_chart.save_file('advanced_chart.html')
 ```
+![Advanced Chart](./../assets/images/getting-started/highcharts-chart2.png)
 
 ## We have Extended Libraries 
 [For Stocks charts](https://www.highcharts.com/products/stock/){:target="_blank"}: ```pip install highcharts-stocks```  
