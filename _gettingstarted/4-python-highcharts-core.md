@@ -3,20 +3,20 @@ layout: article
 title: Highcharts-core
 description: A comprehensive guide on how to work with Highchats-core, a Python library for creating dynamic charts.
 tags: [highcharts-core, charts, python, pip]
-image: https://learn.piptrends.com/assets/images/getting-started/getting-started-python-docs-cover.png
-cover: /assets/images/getting-started/highcharts-logo.png
+image: https://learn.piptrends.com/assets/images/getting-started/getting-started-python-highcharts-cover.png
+cover: [/assets/images/getting-started/Python-Highcharts-Icon]
 article_header:
   type: overlay
   theme: dark
   background_image:
   gradient: 'linear-gradient(135deg, #82d2a6, #8087e8)'
 date: 2023-12-01
-author: Lavanya
+author: lavanya
 ---
 
 ## Introduction
 
-In the world of data analysis and visualization, it is critical to convey information in a compelling and insightful manner. Highcharts, a popular JavaScript library, is a powerful tool for creating dynamic and interactive charts. What if you could use Highcharts' power directly in your Python projects with a simple 'pip install' command? 'highcharts-core' is a Python package that seamlessly integrates Highcharts functionality into your Python environment.
+In the field of data analysis and visualization, effectively communicating information in an attractive and illustrating manner is extremely important. Highcharts, a popular JavaScript library, is a powerful tool for creating dynamic and interactive charts. What if you could use Highcharts' power directly in your Python projects with a simple 'pip install' command? 'highcharts-core' is a Python package that seamlessly integrates Highcharts functionality into your Python environment.
 
 ## What is `highcharts-core`?
 'highcharts-core' is a Python package that connects your Python environment to the Highcharts JavaScript library. By installing this package, you can use Highcharts to its full potential directly within your Python scripts, making data visualization a breeze.
