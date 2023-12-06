@@ -100,6 +100,18 @@ advanced_chart.save_file('advanced_chart.html')
 ```
 ![Advanced Chart](./../assets/images/getting-started/highcharts-chart2.png)
 
+
+## Options
+`text`: Specifies the title of the chart.  
+`xAxis` > `categories`: Defines the categories (labels) for the X-axis. In this example, the X-axis will have categories 'Jan', 'Feb', 'Mar', 'Apr', and 'May'.  
+`yAxis` > `title`: Specifies the title of the Y-axis.  
+`series`:This is an array of series objects. Each series object represents a set of data to be plotted on the chart.  
+`name`: The name of the series.  
+`data`: An array of data points for the series.  
+`plotOptions`: Allows you to set options that are common to all plot options (series types).In this example, it is used to configure the column chart options.  
+`column`: Specifies that the configuration is for the column chart type.  
+`stacking`: Sets the stacking option for the column chart. In this case, it's set to 'normal', meaning the columns are stacked on top of each other.  
+
 ## We have Extended Libraries 
 [For Stocks charts](https://www.highcharts.com/products/stock/){:target="_blank"}: ```pip install highcharts-stocks```  
 [For Maps charts](https://www.highcharts.com/products/maps/){:target="_blank"}:```pip install highcharts-maps```  
