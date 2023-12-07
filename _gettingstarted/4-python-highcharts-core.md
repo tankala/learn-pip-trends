@@ -9,7 +9,7 @@ article_header:
   type: overlay
   theme: dark
   background_image:
-  gradient: 'linear-gradient(135deg, #82d2a6, #8087e8)'
+    gradient: 'linear-gradient(135deg, #82d2a6, #8087e8)'
 date: 2023-12-01
 author: lavanya
 ---
