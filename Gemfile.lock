@@ -104,6 +104,7 @@ PLATFORMS
 DEPENDENCIES
   bundler
   jekyll-seo-tag
+  jekyll-sitemap
   jekyll-text-theme!
   rake (~> 10.0)
 
