@@ -2,7 +2,7 @@
 ##############################
 text_skin: default 
 highlight_theme: default 
-url     : "https://learn.piptrends.com/"
+url     : "https://learn.piptrends.com"
 baseurl : /
 title   : learn-pip-trends
 tagline : Learn everything about Python
