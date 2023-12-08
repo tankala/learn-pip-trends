@@ -18,7 +18,7 @@ shortname:
   name: # full name
   twitter: # twitter handle
 ```
-- Create an article `(.md)` and store it in the respective folder following the article structure, including the following front matter:
+- Create an article `(.md)` and store it in the respective folder(```_gettingstarted``` for getting started articles, ```_samplecode``` for sample codes) following the article structure, including the following front matter:
 ```markdown
 ---
 layout: article
@@ -37,9 +37,9 @@ date: <Repalce with date of publication>
 author : <Replace with author shortname added in _data\authors.yml>
 ---
 ```
-- Commit your changes: git commit -m "Brief description of your changes"
-- Push your branch: git push origin your-branch-name
-- Create a pull request.
-
+  Please visit [this link](./images) for detailed guidance on the various types of images used with an article and instructions on their creation. 
+- Commit your changes: ```git commit -m "Brief description of your changes"```
+- Push your branch: ```git push origin your-branch-name```
+- Submit a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
 
 **Please ensure that the front matter is included as specified above when contributing an article. You can refer to previous articles and their respective front matter for examples. Thank you for your contributions!**
