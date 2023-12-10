@@ -27,10 +27,10 @@ article_header: <Optional - Modify content as per requirement>
         gradient: 'linear-gradient(135deg, #ffffff, #000000)'
         src: <image path>
 date: <Repalce with date of publication>
-author:
-  picture: <Optional - Replace with author avatar>
-  name: <Replace with author name>
-  twitter: <Replace with author twitter handle>
+author: 
+    picture: <Optional - Replace with author avatar>
+    name: <Replace with author name>
+    twitter: <Replace with author twitter handle>
 ---
 ```
   Please visit [this link](./images) for detailed guidance on the various types of images used with an article and instructions on their creation. 
