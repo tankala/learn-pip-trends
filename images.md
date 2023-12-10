@@ -44,6 +44,5 @@ Each tag serves a different purpose.
     **Dimensions - 150x150 px**
 
 <center> <img src = "./assets/images/article-images/article-author-avatar.png" alt = "article author avatar"> </center>
-![Alt text](image.png)
 As a standard design practice at [learn.piptrends.com](index.html), the ```image```, and the ```cover``` share the same background gradient as with the ```gradient``` tag under the ```background_image```.
 
