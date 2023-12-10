@@ -11,13 +11,6 @@ Before submitting your article, we kindly ask you to read and follow our [contri
 
 - [Fork this repository](https://github.com/tankala/learn-pip-trends/fork){:target="_blank"}
 - Create a new branch: `git checkout -b your-branch-name`
-- Add yourself as an author in ```_data\authors.yml``` in the following format:
-```yml
-shortname:
-  picture: # replace with avatar 
-  name: # full name
-  twitter: # twitter handle
-```
 - Create an article `(.md)` and store it in the respective folder(```_gettingstarted``` for getting started articles, ```_samplecode``` for sample codes) following the article structure, including the following front matter:
 ```markdown
 ---
@@ -34,7 +27,10 @@ article_header: <Optional - Modify content as per requirement>
         gradient: 'linear-gradient(135deg, #ffffff, #000000)'
         src: <image path>
 date: <Repalce with date of publication>
-author : <Replace with author shortname added in _data\authors.yml>
+author:
+  picture: <Optional - Replace with author avatar>
+  name: <Replace with author name>
+  twitter: <Replace with author twitter handle>
 ---
 ```
   Please visit [this link](./images) for detailed guidance on the various types of images used with an article and instructions on their creation. 
