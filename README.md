@@ -12,9 +12,9 @@ To contribute -
 
 Thank you for your interest in contributing an article to learn-pip-trends! We welcome well-written and insightful articles that cover topics related to the latest trends and updates in the world of Python packaging and distribution using pip.
 
-Before submitting your article, we kindly ask you to read and follow our [contributing guidelines](./contributing) to ensure a smooth and efficient review process.
+Before submitting your article, we kindly ask you to read and follow our [contributing guidelines](./contributing.md) to ensure a smooth and efficient review process.
 
-- [Fork this repository](https://github.com/tankala/learn-pip-trends/fork){:target="_blank"}
+- [Fork this repository](https://github.com/tankala/learn-pip-trends/fork)
 - Create a new branch: `git checkout -b your-branch-name`
 - Create an article `(.md)` and store it in the respective folder(```_gettingstarted``` for getting started articles, ```_samplecode``` for sample codes) following the article structure, including the following front matter:
 ```markdown
@@ -38,7 +38,7 @@ author:
     twitter: <Replace with author twitter handle>
 ---
 ```
-  Please visit [this link](./images) for detailed guidance on the various types of images used with an article and instructions on their creation. 
+  Please visit [this link](./images.md) for detailed guidance on the various types of images used with an article and instructions on their creation. 
 - Commit your changes: ```git commit -m "Brief description of your changes"```
 - Push your branch: ```git push origin your-branch-name```
 - Submit a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
