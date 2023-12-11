@@ -8,8 +8,8 @@ git clone https://github.com/tankala/learn-pip-trends.git
 bundle instal
 bundle exec jekyll serve
 ```
-
 To contribute -
+
 ---
 layout: article
 title: Contribute an article
