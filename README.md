@@ -5,7 +5,7 @@ To run -
 
 ```bash
 git clone https://github.com/tankala/learn-pip-trends.git
-bundle instal
+bundle install
 bundle exec jekyll serve
 ```
 To contribute -
