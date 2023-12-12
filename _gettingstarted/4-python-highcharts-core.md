@@ -14,25 +14,19 @@ date: 2023-12-01
 author: lavanya
 ---
 
-## Introduction
-
-In the field of data analysis and visualization, effectively communicating information in an attractive and illustrating manner is extremely important. Highcharts, a popular JavaScript library, is a powerful tool for creating dynamic and interactive charts. What if you could use Highcharts' power directly in your Python projects with a simple 'pip install' command? 'highcharts-core' is a Python package that seamlessly integrates Highcharts functionality into your Python environment.
-
-## What is `highcharts-core`?
-'highcharts-core' is a Python package that connects your Python environment to the Highcharts JavaScript library. By installing this package, you can use Highcharts to its full potential directly within your Python scripts, making data visualization a breeze.
+## Introduction 
+-When we have a large amount of data and want to present it in the best visual format possible, charts and graphs are the best option. Highcharts is a popular library for charts and graphs. It is a java script library. In Python, we have a wrapper for the same. Highcharts generates charts using SVG rendering. High charts can be used to create line charts, area charts, column and bar charts, pie charts, scatter charts, and bubble charts. Simply send the configurations you want, and the chart will be created.
 
 ## Installation
-
-Getting started with `highcharts-core` is as easy as running a single command:
+ If you want to use the highcharts library in your project, just run below command. It will install all of the required dependencies and make it simple to use in your project. 
 
 ```bash
 pip install highcharts-core
 ```
-This command fetches and installs the necessary Python bindings for Highcharts, enabling you to integrate Highcharts charts effortlessly into your Python applications.
 
 ## Basic Usage:
 
-Once installed, using `highcharts-core` is straightforward. Here's a quick example of creating a simple line chart:
+It is simple to use once it has been installed. Here's an example of a simple line chart:
 
 ```python
 import highcharts
@@ -64,7 +58,7 @@ In this example, we create a basic line chart with specified x-axis categories, 
 
 ## Advanced Features:
 
-`highcharts-core` supports a wide range of Highcharts features, allowing you to create sophisticated and interactive visualizations. You can customize chart types, add annotations, implement drilldowns, and much more—all from the comfort of your Python environment.
+This library allows you to use a wide range of Highcharts features. You can modify chart types, add annotations, implement drilldowns, and do a lot more.
 
 ```python
 # Advanced example with multiple series and customizations
@@ -118,7 +112,7 @@ advanced_chart.save_file('advanced_chart.html')
 [For Gantt charts](https://www.highcharts.com/products/gantt/){:target="_blank"}:```pip install highcharts-gantt```  
 
 ## Demo Url:
-[https://www.highcharts.com/demo](https://www.highcharts.com/products/stock/){:target="_blank"}
+[https://www.highcharts.com/demo](https://www.highcharts.com/demo){:target="_blank"}
 
 ## Conclusion:
-Integrating Highcharts into your Python projects becomes a breeze with 'highcharts-core'. This package opens up a world of possibilities for creating visually appealing and informative charts directly from your Python scripts, whether you're a data scientist, analyst, or developer. Investigate the extensive documentation and examples available to fully utilize 'highcharts-core' in your next data visualization project.
+Highcharts-core enables Python developers to easily create awesome charts when building data dashboards, reports, or interactive web applications with a user-friendly interface and extensive customization options. Please read the official documentation for more information.
