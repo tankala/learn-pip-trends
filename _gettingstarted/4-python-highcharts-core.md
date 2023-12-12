@@ -15,7 +15,7 @@ author: lavanya
 ---
 
 ## Introduction 
--When we have a large amount of data and want to present it in the best visual format possible, charts and graphs are the best option. Highcharts is a popular library for charts and graphs. It is a java script library. In Python, we have a wrapper for the same. Highcharts generates charts using SVG rendering. High charts can be used to create line charts, area charts, column and bar charts, pie charts, scatter charts, and bubble charts. Simply send the configurations you want, and the chart will be created.
+When we have a large amount of data and want to present it in the best visual format possible, charts and graphs are the best option. Highcharts is a popular library for charts and graphs. It is a java script library. In Python, we have a wrapper for the same. Highcharts generates charts using SVG rendering. High charts can be used to create line charts, area charts, column and bar charts, pie charts, scatter charts, and bubble charts. Simply send the configurations you want, and the chart will be created.
 
 ## Installation
  If you want to use the highcharts library in your project, just run below command. It will install all of the required dependencies and make it simple to use in your project. 
