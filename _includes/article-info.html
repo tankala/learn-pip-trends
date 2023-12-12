@@ -1,4 +1,10 @@
-{%- assign _author = site.data.authors[include.article.author] | default: site.author -%}
+{%- if site.data.authors[include.article.author] -%}
+  {%- assign _author = site.data.authors[include.article.author] -%}
+{%- elsif include.article.author -%}
+  {%- assign _author = include.article.author -%}
+{%- else -%}
+  {%- assign _author = site.author -%}
+{%- endif -%}
 
 {%- if include.html != false -%}
 
@@ -57,7 +63,11 @@
       {%- if _show_author or _show_date or _pageview -%}
         <ul class="right-col menu">
           {%- if _show_author  -%}
-            <li><i class="fas fa-user"></i> <span>{{ _author.name }}</span></li>
+            {%- if _author.picture -%}
+              <li><img src="{{ _author.picture }}"> <span>{{ _author.name }}</span></li>
+            {%- else -%}
+              <li><i class="fas fa-user"></i> <span>{{ _author.name }}</span></li>
+            {%- endif -%}
           {%- endif -%}
 
           {%- if _show_date -%}
