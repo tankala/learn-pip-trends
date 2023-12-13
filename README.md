@@ -39,6 +39,28 @@ author:
 ---
 ```
   Please visit [this link](./images.md) for detailed guidance on the various types of images used with an article and instructions on their creation. 
+
+  Example front matter - 
+  ```markdown
+  ---
+layout: article
+title: Python-docx
+description: A comprehensive guide on how to work with Python-docx, a Python library for creating and updating Microsoft Word files.
+tags: [python-docx, python library, Microsoft Word, documents, tutorial]
+image: https://learn.piptrends.com/assets/images/getting-started/getting-started-python-docs-cover.png
+cover: /assets/images/getting-started/Python-docx-Icon.png
+article_header:
+    type: overlay
+    theme: dark
+    background_image:
+      gradient: 'linear-gradient(135deg, #90FFDC, #008DF4)'
+date: 2023-08-02
+author: 
+    picture: /assets/avatars/ayush.png
+    name: Ayush Jain
+    twitter: AyushGanna
+---
+  ```
 - Commit your changes: ```git commit -m "Brief description of your changes"```
 - Push your branch: ```git push origin your-branch-name```
 - Submit a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
