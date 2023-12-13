@@ -3,7 +3,7 @@ layout: article
 title: BeautifulSoup4
 description: BeautifulSoup4 is a Python Library for web scraping. This is a popular tool for extracting data from HTML and XML files.
 tags: [python, pip, piptrends, beautifulsoup, beautifulsoup4, bs4]
-image: https://learn.piptrends.com/assets/images/getting-started/getting-started-beautifulSoup-cover.png
+image: https://learn.piptrends.com/assets/images/getting-started/getting-started-beautifulsoup4-cover.png
 cover: /assets/images/getting-started/beautifulsoup4.png
 article_header:
   type: overlay
