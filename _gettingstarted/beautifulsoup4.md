@@ -11,7 +11,7 @@ article_header:
   background_image:
     gradient: 'linear-gradient(135deg, #5200FF, #FF8A98)'
 date: 2023-12-14
-aman:
+author:
   name: Aman Clement
   twitter: aman_aranha
 ---
@@ -233,3 +233,6 @@ XML, on the other hand, is stricter, and documents must adhere to a well-formed 
 
 ## Further Reading
 
+- [beautifulsoup4 4.12.2 Pypi](https://pypi.org/project/beautifulsoup4/){:target="_blank"}
+- [beautifulsoup4](https://beautiful-soup-4.readthedocs.io/en/latest/){:target="_blank"}
+- [TutorialsPoint - Quick guide](https://www.tutorialspoint.com/beautiful_soup/beautiful_soup_quick_guide.htm){:target="_blank"}
