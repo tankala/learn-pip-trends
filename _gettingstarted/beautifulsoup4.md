@@ -10,8 +10,10 @@ article_header:
   theme: dark
   background_image:
     gradient: 'linear-gradient(135deg, #5200FF, #FF8A98)'
-date: 2023-12-12
-author: aman
+date: 2023-12-14
+aman:
+  name: Aman Clement
+  twitter: aman_aranha
 ---
 
 ## What is Web Scraping?
@@ -229,7 +231,4 @@ Document Structure:
 HTML is usually more forgiving when it comes to malformed tags or documents with errors. Beautiful Soup is designed to handle these imperfections commonly found in HTML.
 XML, on the other hand, is stricter, and documents must adhere to a well-formed structure. Beautiful Soup may not be as forgiving with poorly formed XML
 
-
-## To Summarize 
-
-BeautifulSoup is a powerful tool for working with HTML and XML, its uses in webscraping capabilities are already mentioned in this article, but its capabilities are not limited to this, It has a wide range of applications in Data Cleaning, Testing and Automation, Modifying Structures of Files, etc. As demonstrated in the article, BeautifulSoup4 helps developers to navigate the complexities of web pages effortlessly, making it an ideal choice for both beginners and experienced programmers. The library's popularity is not only attributed to its functionality but also to the active user community that supports it. Combining BeatifulSoup with other advanced libraries can help to unlock ocean of new use cases.
+## Further Reading
