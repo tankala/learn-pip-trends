@@ -232,3 +232,4 @@ HTML is usually more forgiving when it comes to malformed tags or documents with
 XML, on the other hand, is stricter, and documents must adhere to a well-formed structure. Beautiful Soup may not be as forgiving with poorly formed XML
 
 ## Further Reading
+
