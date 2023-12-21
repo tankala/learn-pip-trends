@@ -20,7 +20,7 @@ Python-docx is a powerful Python library designed to handle Microsoft Word docum
 
 Its simplicity and user-friendly nature make it a perfect choice for anyone looking to perform basic document processing tasks in Python, regardless of their programming expertise. Whether you're a newcomer to Python or an experienced developer, this library simplifies the process of working with Word documents, streamlining your projects and saving valuable time.
 
-Throughout this course, we will delve into the fundamentals of using Python-docx, empowering you with the necessary knowledge to embark on your own projects with confidence. Get ready to unlock the potential of Python-docx and elevate your document processing capabilities to new heights.
+Throughout this article, we will delve into the fundamentals of using Python-docx, empowering you with the necessary knowledge to embark on your own projects with confidence. Get ready to unlock the potential of Python-docx and elevate your document processing capabilities to new heights.
 
 ## Installing Python-docx
 
@@ -261,7 +261,7 @@ Python-docx can be used for a variety of use cases and projects, making it a ver
 
 - **Word Document Conversion:** Create a script to convert Word documents to other formats, such as PDF, HTML, or plain text. This can be useful for archiving, sharing, or publishing documents in different formats.
 
-In this course, we have explored the versatile and user-friendly Python-docx library, which empowers users to interact with Microsoft Word documents effortlessly. From creating new documents and adding text, images, and tables to formatting content and saving the final result, learners have acquired a comprehensive set of skills to tackle a wide range of document processing tasks. By understanding Python-docx's capabilities, learners can now confidently embark on projects such as automated report generation, resume builders, and educational tools, streamlining document management and unleashing the potential of this powerful library. Armed with this newfound knowledge, learners can enhance productivity, save valuable time, and explore exciting opportunities in their document-centric endeavors.
+In this article, we have explored the versatile and user-friendly Python-docx library, which empowers users to interact with Microsoft Word documents effortlessly. From creating new documents and adding text, images, and tables to formatting content and saving the final result, learners have acquired a comprehensive set of skills to tackle a wide range of document processing tasks. By understanding Python-docx's capabilities, learners can now confidently embark on projects such as automated report generation, resume builders, and educational tools, streamlining document management and unleashing the potential of this powerful library. Armed with this newfound knowledge, learners can enhance productivity, save valuable time, and explore exciting opportunities in their document-centric endeavors.
 
 ## Useful Links
 - [python-docx 0.8.11 documentation](https://python-docx.readthedocs.io/en/latest/){:target="_blank"}
