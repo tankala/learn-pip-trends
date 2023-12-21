@@ -139,7 +139,7 @@ Plot -
 <img src="../assets/images/articles/matplotlib/Example-2-Line-Chart.png" alt="Example-2:Line Color" style="width: 50%; margin: 10px">
 </center>
 
-### Line width and Line style
+#### Line width and Line style
 
 To change the Line width, you can set the `linewidth` parameter in the `plot()` function, where you have to specify the width value in float.
 
@@ -171,7 +171,7 @@ Plot -
 <img src="../assets/images/articles/matplotlib/Example-3-Line-Chart.png" alt="Example-3:Line Width and Style" style="width: 50%; margin: 10px">
 </center>
 
-### Marker Type
+#### Marker Type
 
 To change the marker type, you can give the following additional arguments in the `plot()` function: `marker = <valid marker type>`
 
@@ -212,9 +212,9 @@ Plot -
 <img src="../assets/images/articles/matplotlib/Example-4-Line-Chart.png" alt="Example-4: Markers" style="width: 50%; margin: 10px">
 </center>
 
-
 ## Bar Chart
-A bar chart displays information using bars of different heights. Bar charts are commonly used for visualizing categorical data and comparing quantities among different categories. For example  - sales comparison, market share analysis, population distribution, survey results, etc.
+
+A bar chart displays information using bars of different heights. Bar charts are commonly used for visualizing categorical data and comparing quantities among different categories. For example - sales comparison, market share analysis, population distribution, survey results, etc.
 
 PyPlot's bar() function is used to plot bar charts. You can do this as follows:
 
@@ -231,6 +231,7 @@ plt.bar(categories, values)
 # Show the plot
 plt.show()
 ```
+
 This will open a new window with your plot.
 
 <center>
@@ -252,9 +253,10 @@ _where_
 - **color** (single/sequence): defines the color of the bars.
 
 #### Width
-You can either specify different width(other than the default) for all bars, or you can specify different widths for different bars of the bar chart using the ```width``` argument. For same width for all bars, you can specify a point value as the value for the ```width``` argument or for different widths you can specify a sequence value as the value for the ```width``` argument.
 
-Same Width - 
+You can either specify different width(other than the default) for all bars, or you can specify different widths for different bars of the bar chart using the `width` argument. For same width for all bars, you can specify a point value as the value for the `width` argument or for different widths you can specify a sequence value as the value for the `width` argument.
+
+Same Width -
 
 ```python
 import matplotlib.pyplot as plt
@@ -271,11 +273,13 @@ plt.show()
 ```
 
 Chart -
+
 <center>
 <img src="../assets/images/articles/matplotlib/Example-2-Bar-Chart.png" alt="Example-2:Same Width" style="width: 50%; margin: 10px">
 </center>
 
 Different Widths -
+
 ```python
 import matplotlib.pyplot as plt
 
@@ -292,15 +296,16 @@ plt.show()
 ```
 
 Chart -
+
 <center>
 <img src="../assets/images/articles/matplotlib/Example-3-Bar-Chart.png" alt="Example-3:Different Widths" style="width: 50%; margin: 10px">
 </center>
 
 #### Color
 
-Similar to the ```width``` argument, you can also specify the ```color``` argument for the bars.
+Similar to the `width` argument, you can also specify the `color` argument for the bars.
 
-Same Color - 
+Same Color -
 
 ```python
 import matplotlib.pyplot as plt
@@ -317,11 +322,13 @@ plt.show()
 ```
 
 Chart -
+
 <center>
 <img src="../assets/images/articles/matplotlib/Example-4-Bar-Chart.png" alt="Example-4:Same Color" style="width: 50%; margin: 10px">
 </center>
 
 Different Colors -
+
 ```python
 import matplotlib.pyplot as plt
 
@@ -338,6 +345,7 @@ plt.show()
 ```
 
 Chart -
+
 <center>
 <img src="../assets/images/articles/matplotlib/Example-5-Bar-Chart.png" alt="Example-5:Different Colors" style="width: 50%; margin: 10px">
 </center>
@@ -368,9 +376,10 @@ plt.bar(bar_positions_set2, values_set2, width=bar_width, color='salmon')
 plt.show()
 ```
 
-In the above code snippet ```bar_positions_set1``` and ```bar_positions_set2``` define the positions of the bars for the two datasets, ensuring they are displayed side by side.
+In the above code snippet `bar_positions_set1` and `bar_positions_set2` define the positions of the bars for the two datasets, ensuring they are displayed side by side.
 
 Chart -
+
 <center>
 <img src="../assets/images/articles/matplotlib/Example-6-Bar-Chart.png" alt="Example-6:Multiple Bar Charts" style="width: 50%; margin: 10px">
 </center>
@@ -387,12 +396,14 @@ plt.legend()
 ```
 
 Chart -
+
 <center>
 <img src="../assets/images/articles/matplotlib/Example-7-Bar-Chart.png" alt="Example-7:Multiple Bar Charts with Labels and Titles" style="width: 50%; margin: 10px">
 </center>
 
 ### Horizontal Bar Charts
-Use the ```plt.barh()``` function to create a horizontal bar chart by passing the ```categories``` as the y-axis and ```values``` as the corresponding width of the bars along the x-axis. Adjust the labels, colors, and other parameters just like you would with a normal bar chart using the ```plt.bar()``` function.
+
+Use the `plt.barh()` function to create a horizontal bar chart by passing the `categories` as the y-axis and `values` as the corresponding width of the bars along the x-axis. Adjust the labels, colors, and other parameters just like you would with a normal bar chart using the `plt.bar()` function.
 
 ```python
 import matplotlib.pyplot as plt
@@ -407,13 +418,16 @@ plt.barh(categories, values, color='skyblue')
 # Show the plot
 plt.show()
 ```
+
 Chart -
+
 <center>
 <img src="../assets/images/articles/matplotlib/Example-8-Bar-Chart.png" alt="Example-8:Horizontal Bar Chart" style="width: 50%; margin: 10px">
 </center>
 
 ## Pie Chart
-A pie chart divides a circle into slices to illustrate numerical proportions. Each slice represents a portion of the whole, with the size of each slice proportional to the quantity it represents. Pie charts are useful for displaying relative proportions or percentages of a whole. For example -  market share analysis, population distribution, survey results, etc.
+
+A pie chart divides a circle into slices to illustrate numerical proportions. Each slice represents a portion of the whole, with the size of each slice proportional to the quantity it represents. Pie charts are useful for displaying relative proportions or percentages of a whole. For example - market share analysis, population distribution, survey results, etc.
 
 PyPlot's pie() function is used to plot pie charts. You can use this as follows:
 
@@ -421,7 +435,7 @@ PyPlot's pie() function is used to plot pie charts. You can use this as follows:
 import matplotlib.pyplot as plt
 
 # Sample data
-contribution = [17, 8.8, 12.75, 14] 
+contribution = [17, 8.8, 12.75, 14]
 
 # Creating a pie chart
 plt.pie(contribution)
@@ -431,15 +445,17 @@ plt.show()
 ```
 
 This will open a new window with your plot.
+
 <center>
 <img src="../assets/images/articles/matplotlib/Example-1-Pie-Chart.png" alt="Example-1:Pie Chart" style="width: 50%; margin: 10px">
 </center>
 
 ### Customizing the chart
-The full syntax of the bar() function is:
+
+The full syntax of the pie() function is:
 
 ```python
-bar( <contribution-sequence> ... [, <labels>] [, <autopct>] [, <colors>] [, <explode>])
+pie( <contribution-sequence> ... [, <labels>] [, <autopct>] [, <colors>] [, <explode>])
 ```
 
 _where_
@@ -451,7 +467,8 @@ _where_
 - **explode** (sequence): defines the distance of the pie from the center to emphasize on more slice more than the other.
 
 #### Adding Labels of Slices
-The above plot is incomplete as it makes it difficult to make out which slice belongs to what. You can pass the sequence of labels as a value to tha ```labels``` argument of the ```plt.pie()``` function.
+
+The above plot is incomplete as it makes it difficult to make out which slice belongs to what. You can pass the sequence of labels as a value to tha `labels` argument of the `pie()` function.
 
 ```python
 import matplotlib.pyplot as plt
@@ -468,24 +485,25 @@ plt.show()
 ```
 
 Chart -
+
 <center>
 <img src="../assets/images/articles/matplotlib/Example-2-Pie-Chart.png" alt="Example-2:Pie Chart with Labels" style="width: 50%; margin: 10px">
 </center>
 
 #### Adding Formatted Slice Percentages
-To view the percentage share in a pie chart, you need to add an argument ```autopct``` with a format string such as ```"%1.1F%%"```. It will show the percent share of each slice to the whole, formatted in a certain way.
+
+To view the percentage share in a pie chart, you need to add an argument `autopct` with a format string such as `"%1.1F%%"`. It will show the percent share of each slice to the whole, formatted in a certain way.
 
 The percentage of each value plotted is calculated as:
 
 $$ \frac{single value}{sum of all values} \times  100 $$
 
-The format string used with ```autopct``` will determine the format of the percentage being displayed. The format string begins with the "%" operator, which specifies the format of the percentage value being displayed.
-The general syntax for a format placeholder is 
+The format string used with `autopct` will determine the format of the percentage being displayed. The format string begins with the "%" operator, which specifies the format of the percentage value being displayed.
+The general syntax for a format placeholder is
 
 ```
 [flags][width][.precision]type
 ```
-
 
 - **%**: The percentage symbol is a special character that signifies that this string is a format specifier.
 - **flags**: Optional flags that can modify the formatting. For example, adding a + flag displays both positive and negative numbers with a sign. The most useful flag is 0, which wien specified will pad tha value being displayed woth preceeding zeroes if the digits of the value is less than the width.
@@ -495,13 +513,13 @@ The general syntax for a format placeholder is
 - **type**: Represents the data type being formatted. For percentages, it is often f for float.
 - **%%**: When you include %% in a format string, it serves as an escape sequence for the percentage symbol %. It doesn't represent any data to format; instead, it's used to display a literal percentage sign.
 
-Format strings examples - 
+Format strings examples -
 
-| Format String | Parameters | Description |
-|---------------|------------|-------------|
-| "%5d", "%5i" | width = 5, type = d or i (integer type) | Print the value with 5 characters. If the value being printed is less than 5 characters, it will be padded with leading blanks. |
-| "%05d", "%05i" | flag = 0, width = 5, type = d or i (integer type) | With the flag being set to 0, the value will now be printed with leading zeroes(0) instead of blank spaces. |
-| "%5d%%", "%5i%%" | width = 5, type = d or i (integer type), percentage sign in the end | Adds a % sign to the end of the format string. |
+| Format String          | Parameters                                                                                 | Description                                                                                                                                                        |
+| ---------------------- | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| "%5d", "%5i"           | width = 5, type = d or i (integer type)                                                    | Print the value with 5 characters. If the value being printed is less than 5 characters, it will be padded with leading blanks.                                    |
+| "%05d", "%05i"         | flag = 0, width = 5, type = d or i (integer type)                                          | With the flag being set to 0, the value will now be printed with leading zeroes(0) instead of blank spaces.                                                        |
+| "%5d%%", "%5i%%"       | width = 5, type = d or i (integer type), percentage sign in the end                        | Adds a % sign to the end of the format string.                                                                                                                     |
 | "%05.2f%%", "%05.2F%%" | flag = 0, width = 5, type = f or F (float type), precision = 2, percentage sign in the end | The precision parameter, sets the number of characters that will be displayed after the decimal point. Here, .2 indicates that two decimal places should be shown. |
 
 Here's how you can use the autopct parameter -
@@ -519,6 +537,7 @@ plt.pie(sizes, labels=labels, autopct='%06.2f%%')
 # Show the plot
 plt.show()
 ```
+
 Chart -
 
 <center>
@@ -526,7 +545,8 @@ Chart -
 </center>
 
 #### Adding colors to teh slices
-You can define different colors to the slices using the ```colors``` parameter.
+
+You can define different colors to the slices using the `colors` parameter.
 
 ```python
 import matplotlib.pyplot as plt
@@ -543,13 +563,15 @@ plt.pie(sizes, labels=labels, colors=colors)
 plt.show()
 ```
 
-Chart - 
+Chart -
+
 <center>
 <img src="../assets/images/articles/matplotlib/Example-4-Pie-Chart.png" alt="Example-4:Pie Chart with custom colors" style="width: 50%; margin: 10px">
 </center>
 
 #### Exploding a slice
-When you want to emphasize on one or more slices and show them little pulled out, you can use the ```explode``` parameter of the ```plt.pie()``` function
+
+When you want to emphasize on one or more slices and show them little pulled out, you can use the `explode` parameter of the `pie()` function
 
 ```python
 import matplotlib.pyplot as plt
@@ -568,22 +590,24 @@ plt.show()
 ```
 
 Chart -
+
 <center>
 <img src="../assets/images/articles/matplotlib/Example-5-Pie-Chart.png" alt="Example-5:Pie Chart with exploded slices" style="width: 50%; margin: 10px">
 </center>
 
-
 ## Customizing the Plot
-Data Visualization demands much more from a graph/plot. The graph or plot should have a proper title, X and Y limits defined, labels, legends etc. All this makes understanding the plot and taking the decisions easier. 
+
+Data Visualization demands much more from a graph/plot. The graph or plot should have a proper title, X and Y limits defined, labels, legends etc. All this makes understanding the plot and taking the decisions easier.
 
 ### Adding a title
-To add a title to your plot, you can use the ```plt.title()``` function. The general syntax of the function is
+
+To add a title to your plot, you can use the `title()` function. The general syntax of the function is
 
 ```
 <matplotlib.pyplot>.title(<title string>)
 ```
 
-Example - 
+Example -
 
 ```python
 import matplotlib.pyplot as plt
@@ -605,12 +629,14 @@ plt.show()
 ```
 
 Chart -
+
 <center>
 <img src="../assets/images/articles/matplotlib/Example-1-Adding-Title.png" alt="Example-1:Adding a title to a chart" style="width: 50%; margin: 10px">
 </center>
 
 ### Setting X and Y Axes Labels
-To add x and y labels to a plot, you can use the ```xlabel()``` and ```ylabel()``` functions.
+
+To add x and y labels to a plot, you can use the `xlabel()` and `ylabel()` functions.
 The general syntax for these functions is -
 
 ```
@@ -642,12 +668,14 @@ plt.show()
 ```
 
 Chart -
+
 <center>
 <img src="../assets/images/articles/matplotlib/Example-2-X-Y-Labels.png" alt="Example-2:Adding X and Y labels" style="width: 50%; margin: 10px">
 </center>
 
 ### Setting X and Y Axes limits
-PyPlot automatically picks the best fitting range for X and Y axes by default. But, to have your own limits specified for X and Y axes, t=you can use the ```xlim()``` and ```ylim()``` functions.
+
+PyPlot automatically picks the best fitting range for X and Y axes by default. But, to have your own limits specified for X and Y axes, t=you can use the `xlim()` and `ylim()` functions.
 The general syntax of these functions is:
 
 ```
@@ -683,12 +711,14 @@ plt.show()
 ```
 
 Chart-
+
 <center>
 <img src="../assets/images/articles/matplotlib/Example-3-X-Y-Limits.png" alt="Example-3:Adding X and Y limits" style="width: 50%; margin: 10px">
 </center>
 
 ### Setting X and Y Axes Ticks
-Similar to the limits, PyPlot automatically decides the data points that will have ticks on the axes, but to assign your own data points will have tick marks on X and Y axes using the ```plt.xticks()``` and ```plt.yticks()``` functions.
+
+Similar to the limits, PyPlot automatically decides the data points that will have ticks on the axes, but to assign your own data points will have tick marks on X and Y axes using the `xticks()` and `yticks()` functions.
 
 The general syntax of these functions is:
 
@@ -723,21 +753,25 @@ plt.title('Bar Chart with Custom X and Y Ticks')
 # Show the plot
 plt.show()
 ```
+
 Chart-
+
 <center>
 <img src="../assets/images/articles/matplotlib/Example-4-X-Y-Ticks.png" alt="Example-4:Adding X and Y Ticks" style="width: 50%; margin: 10px">
 </center>
 
 ### Adding legends
-To add legends to a line chart with multiple lines representing different data series, you can use the ```plt.legend()``` function in PyPlot. Make sure, you specify the ```label``` argument in your plotting function.
 
-The general syntax of the ```plt.legend()``` function is:
+To add legends to a line chart with multiple lines representing different data series, you can use the `legend()` function in PyPlot. Make sure, you specify the `label` argument in your plotting function.
+
+The general syntax of the `legend()` function is:
 
 ```
 <matplotlib.pyplot>.legends(loc = <position number or strings>)
 ```
 
-Example - 
+Example -
+
 ```python
 import matplotlib.pyplot as plt
 
@@ -765,11 +799,12 @@ plt.show()
 ```
 
 Chart-
+
 <center>
 <img src="../assets/images/articles/matplotlib/Example-5-Adding-Legends.png" alt="Example-5:Adding Legends" style="width: 50%; margin: 10px">
 </center>
 
-You can use the ```loc``` argument to specify the location of the legends in your chart.
+You can use the `loc` argument to specify the location of the legends in your chart.
 
 ```python
 import matplotlib.pyplot as plt
@@ -804,27 +839,33 @@ plt.xticks(x + bar_width / 2, categories)
 plt.show()
 ```
 
-Chart - 
+Chart -
+
 <center>
 <img src="../assets/images/articles/matplotlib/Example-6-Adding-Legends-Location.png" alt="Example-6:Adding Legends with location" style="width: 50%; margin: 10px">
 </center>
 
 ## Saving a figure
-You can save your plot using the ```plt.savefig()``` function. You can save them in popular formats like *.png*, *.jpg*, *pdf*, etc.
 
-The general syntax of the ```plt.savefig()``` function is -
+You can save your plot using the `savefig()` function. You can save them in popular formats like _.png_, _.jpg_, _pdf_, etc.
+
+The general syntax of the `savefig()` function is -
+
 ```
 <matplotlib.pyplot>.savefig(<string with path and filename and extension>)
 ```
 
-Example - 
+Example -
+
 ```python
 plt.savefig("filename.png")
 plt.savefig("filename.pdf")
 ```
 
 ## Project Ideas
+
 Some project ideas to get started with PyPlot are -
+
 - **Financial Data Analysis**: Create visualizations for stock market data, including stock price movements, trading volumes, and comparative analysis of multiple stocks.
 - **Weather Data Visualization**: Develop visualizations for weather patterns, such as temperature trends, rainfall distribution, or climate change analysis using historical weather data.
 - **Social Media Analytics**: Analyze and visualize social media trends, user engagement, sentiment analysis, or network graphs using data collected from social media platforms.
@@ -832,7 +873,8 @@ Some project ideas to get started with PyPlot are -
 In this article, we covered the basics of Data Visualization with PyPlot. We explored Line Charts, Bar Charts, and Pie CHarts in detail. We also discusses the anatomy of a chart and how to save these figures. Armed with this newfound knowledge, learners can use PyPlot and add Data Visualization features to their projects.
 
 ## Useful Links
-- [pypi - matpotlib](https://pypi.org/project/matplotlib/){:target="_blank"}
-- [matplotlib Documentation](https://matplotlib.org/stable/tutorials/pyplot.html){:target="_blank"}
-- [What Is PyPlot In Matplotlib?](https://www.activestate.com/resources/quick-reads/what-is-pyplot-in-matplotlib/){:target="_blank"}
-- [weschools - PyPlot Tutorial](https://www.w3schools.com/python/matplotlib_pyplot.asp){:target="_blank"}
+
+- [pypi - matpotlib](https://pypi.org/project/matplotlib/){:target="\_blank"}
+- [matplotlib Documentation](https://matplotlib.org/stable/tutorials/pyplot.html){:target="\_blank"}
+- [What Is PyPlot In Matplotlib?](https://www.activestate.com/resources/quick-reads/what-is-pyplot-in-matplotlib/){:target="\_blank"}
+- [weschools - PyPlot Tutorial](https://www.w3schools.com/python/matplotlib_pyplot.asp){:target="\_blank"}
