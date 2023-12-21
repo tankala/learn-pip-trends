@@ -384,7 +384,7 @@ Chart -
 <img src="../assets/images/articles/matplotlib/Example-6-Bar-Chart.png" alt="Example-6:Multiple Bar Charts" style="width: 50%; margin: 10px">
 </center>
 
-You can also add labels and titles to this chart to make it more informative. We'll discuss about these in detail in the [Labels and Titles Section]()
+You can also add labels and titles to this chart to make it more informative. We'll discuss about these in detail in the [Labels and Titles Section](#customizing-the-plot-1)
 
 ```python
 # Adding labels and title
