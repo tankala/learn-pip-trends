@@ -53,12 +53,12 @@ chart.save_file('my_chart.html')
 ```
 
 In this example, we create a basic line chart with specified x-axis categories, y-axis title, and a data series. The resulting chart is saved as an HTML file (`my_chart.html`), which can be opened in any web browser.
-![Basic Chart](./../assets/images/getting-started/highcharts-chart1.png)
+![Basic Chart](./../assets/images/getting-started/highcharts/chart1.png)
 
 
 ## Advanced Features:
 
-This library allows you to use a wide range of Highcharts features. You can modify chart types, add annotations, implement drilldowns, and do a lot more.
+This library allows you to use a wide range of Highcharts features. You can modify chart types, add annotations, implement drilldowns, and do a lot more. Highcharts by default it will show line charts
 
 ```python
 # Advanced example with multiple series and customizations
@@ -92,10 +92,144 @@ advanced_options = {
 advanced_chart.set_dict_options(advanced_options)
 advanced_chart.save_file('advanced_chart.html')
 ```
-![Advanced Chart](./../assets/images/getting-started/highcharts-chart2.png)
+![Advanced Chart](./../assets/images/getting-started/highcharts/chart2.png)
+
+```python
+# Area Chart
+advanced_area_chart = highcharts.Highchart()
+
+advanced_area_options = {
+    'chart': {
+        'type': 'area'
+    },
+    'title': {
+        'text': 'Advanced Highcharts Area Chart'
+    },
+    'xAxis': {
+        'categories': ['Jan', 'Feb', 'Mar', 'Apr', 'May']
+    },
+    'yAxis': {
+        'title': {
+            'text': 'Values'
+        }
+    },
+    'series': [{
+        'name': 'Series 1',
+        'data': [10, 20, 15, 25, 30]
+    }, {
+        'name': 'Series 2',
+        'data': [5, 15, 10, 20, 25]
+    }],
+    'plotOptions': {
+        'column': {
+            'stacking': 'normal'
+        }
+    }
+}
+advanced_area_chart.set_dict_options(advanced_area_options)
+advanced_area_chart.save_file('advanced_area_chart.html')
+```
+![Area Chart](./../assets/images/getting-started/highcharts/area-chart.png)
+
+```python
+# Bar Chart
+advanced_bar_chart = highcharts.Highchart()
+
+advanced_bar_options = {
+    'chart': {
+        'type': 'bar'
+    },
+    'title': {
+        'text': 'Advanced Highcharts Bar Chart'
+    },
+    'xAxis': {
+        'categories': ['Jan', 'Feb', 'Mar', 'Apr', 'May']
+    },
+    'yAxis': {
+        'title': {
+            'text': 'Values'
+        }
+    },
+    'series': [{
+        'name': 'Series 1',
+        'data': [10, 20, 15, 25, 30]
+    }, {
+        'name': 'Series 2',
+        'data': [5, 15, 10, 20, 25]
+    }]
+}
+advanced_bar_chart.set_dict_options(advanced_bar_options)
+advanced_bar_chart.save_file('advanced_bar_chart.html')
+```
+![Bar Chart](./../assets/images/getting-started/highcharts/bar-chart.png)
+
+```python
+# Column Chart
+advanced_column_chart = highcharts.Highchart()
+
+advanced_column_options = {
+    'chart': {
+        'type': 'column'
+    },
+    'title': {
+        'text': 'Advanced Highcharts Column Chart'
+    },
+    'xAxis': {
+        'categories': ['Jan', 'Feb', 'Mar', 'Apr', 'May']
+    },
+    'yAxis': {
+        'title': {
+            'text': 'Values'
+        }
+    },
+    'series': [{
+        'name': 'Series 1',
+        'data': [10, 20, 15, 25, 30]
+    }, {
+        'name': 'Series 2',
+        'data': [5, 15, 10, 20, 25]
+    }]
+}
+advanced_column_chart.set_dict_options(advanced_column_options)
+advanced_column_chart.save_file('advanced_column_chart.html')
+```
+![Column Chart](./../assets/images/getting-started/highcharts/column-chart.png)
+
+```python
+# Column Stack Chart
+advanced_column_stack_chart = highcharts.Highchart()
+
+advanced_column_stack_options = {
+    'chart': {
+        'type': 'column'
+    },
+    'title': {
+        'text': 'Advanced Highcharts Column Stack Chart'
+    },
+    'xAxis': {
+        'categories': ['Jan', 'Feb', 'Mar', 'Apr', 'May']
+    },
+    'yAxis': {
+        'title': {
+            'text': 'Values'
+        }
+    },
+    'series': [{
+        'name': 'Series 1',
+        'data': [10, 20, 15, 25, 30]
+    }, {
+        'name': 'Series 2',
+        'data': [5, 15, 10, 20, 25]
+    }]
+}
+advanced_column_stack_chart.set_dict_options(advanced_column_stack_options)
+advanced_column_stack_chart.save_file('advanced_column_stack_chart.html')
+```
+![Column Stack Chart](./../assets/images/getting-started/highcharts/column-stack-chart.png)
 
 
 ## Options
+`chart` > `type` : Specifies the type of the chart eg: line, bar, area, column etc.,
 `text`: Specifies the title of the chart.  
 `xAxis` > `categories`: Defines the categories (labels) for the X-axis. In this example, the X-axis will have categories 'Jan', 'Feb', 'Mar', 'Apr', and 'May'.  
 `yAxis` > `title`: Specifies the title of the Y-axis.  
@@ -113,6 +247,3 @@ advanced_chart.save_file('advanced_chart.html')
 
 ## Demo Url:
 [https://www.highcharts.com/demo](https://www.highcharts.com/demo){:target="_blank"}
-
-## Conclusion:
-Highcharts-core enables Python developers to easily create awesome charts when building data dashboards, reports, or interactive web applications with a user-friendly interface and extensive customization options. Please read the official documentation for more information.
