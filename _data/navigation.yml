@@ -46,7 +46,7 @@ header:
       en-CA   : *EN
       en-AU   : *EN
       # @end locale config
-    url: https://piptrends.substack.com/
+    url: https://newsletter.piptrends.com/
 
   - titles:
       # @start locale config
