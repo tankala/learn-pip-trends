@@ -1,3 +1,7 @@
+{%- include snippets/get-locale-string.html key='SEARCH' -%}
+{%- assign _locale_search = __return -%}
+{%- include snippets/get-locale-string.html key='CANCEL' -%}
+{%- assign _locale_cancel = __return -%}
 <div class="search search--dark">
   <div class="main">
     <div class="search__header">{{ _locale_search }}</div>
@@ -16,3 +20,5 @@
   </div>
 </div>
 <script>{%- include search-providers/default/search.js -%}</script>
+
+
