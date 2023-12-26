@@ -36,7 +36,7 @@ layout: base
   <div class="page__viewport">
     <div class="page__actions d-print-none">
       <div class="button button--circle button--lg box-shadow-2 sidebar-button js-sidebar-show">
-        <i class="fas fa-bars icon--show"></i>
+        <i class="fa fa-bars icon--show"></i>
       </div>
     </div>
 
@@ -149,7 +149,7 @@ layout: base
                     {%- include article-info.html article=page semantic=false -%}
                     {%- include article-header.html article=page semantic=false -%}
                     {%- if page.excerpt -%}
-                      <p class="overlay__excerpt">{{ page.excerpt | strip_html | strip_newlines | strip | truncate: _article_header_excerpt_truncate }}</p>
+                      <p class="overlay__excerpt">{{ page.description | strip_html | strip_newlines | strip | truncate: _article_header_excerpt_truncate }}</p>
                     {%- endif -%}
                     {%- if page.article_header.actions -%}
                       <ul class="menu">

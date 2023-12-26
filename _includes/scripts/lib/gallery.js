@@ -6,8 +6,8 @@
       '<div class="swiper gallery__swiper">' +
         '<div class="swiper__wrapper">' +
         '</div>' +
-        '<div class="swiper__button swiper__button--prev fas fa-chevron-left"></div>' +
-        '<div class="swiper__button swiper__button--next fas fa-chevron-right"></div>' +
+        '<div class="swiper__button swiper__button--prev fa fa-chevron-left"></div>' +
+        '<div class="swiper__button swiper__button--next fa fa-chevron-right"></div>' +
       '</div>';
     function setState($item, zoom, translate) {
       $item.css('transform', 'scale(' + zoom + ') translate(' + translate.x +  'px,' + translate.y + 'px)');
