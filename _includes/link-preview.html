@@ -1,0 +1,10 @@
+{% assign link-preview-meta = include.url | metadata %}
+<div class="link-preview-box">
+    <img src="{{ link-preview-meta['og:image'] }}" onerror="this.onerror=null; this.src='/assets/images/general/default-preview-image.png';" alt="{{ link-preview-meta['title'] | escape }}">
+    <div class="link-preview-text">
+        <a href="{{ include.url }}" title="{{ link-preview-meta['title'] | escape }}" target="_blank">
+            <p class="link-preview-title">{{ link-preview-meta['title'] | truncate: site.link-preview.title_max_characters | escape }}</p>
+        </a>
+        <p class="link-preview-description">{{ link-preview-meta['og:description'] | truncate: site.link-preview.description_max_characters | escape }}</p>
+    </div>
+</div>
