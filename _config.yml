@@ -198,6 +198,8 @@ collections:
     output: true
   relatedarticles:
     output: true
+  faqs:
+    output: true
 
 defaults:
   - 
@@ -238,4 +240,15 @@ defaults:
       type: "relatedarticles"
     values:
       layout: "article"
+      aside:
+        toc: true
+      comments: true
+  -
+    scope:
+      path: ""
+      type: "faqs"
+    values:
+      layout: "article"
+      aside:
+        toc: true
       comments: true
