@@ -200,6 +200,8 @@ collections:
     output: true
   faqs:
     output: true
+  contribute:
+    output: true
 
 defaults:
   - 
@@ -252,3 +254,9 @@ defaults:
       aside:
         toc: true
       comments: true
+  -
+    scope:
+      path: ""
+      type: "contribute"
+    values:
+      layout: "article"
