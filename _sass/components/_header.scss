@@ -52,7 +52,6 @@
     }
   }
   & > .search-button {
-    display: none;
     margin-left: map-get($spacers, 2);
     @include media-breakpoint-down(md) {
       @include flexbox();
@@ -97,11 +96,6 @@
     @include media-breakpoint-down(md) {
       height: auto;
     }
-    .search-button {
-      @include media-breakpoint-down(md) {
-        display: none;
-      }
-    }
   }
 }
 
@@ -109,16 +103,21 @@
   &::after {
     display: block;
     margin-bottom: -4px;
+    position: relative;
     content: "";
     @include split-line(bottom, 4px, transparent);
   }
+  &:hover .submenu {
+    display: block; // Display submenu on hover
+  }
 }
+
 .navigation__item--active {
   a {
     @include link-colors($main-color-1, $main-color-1);
   }
   &::after {
-    @include split-line(bottom, 4px, $main-color-1);
+    @include split-line(bottom, 2px, $main-color-1);
   }
 }
 
@@ -126,6 +125,7 @@
   display: none;
   cursor: pointer;
 }
+
 @media (max-width: 880px) {
   #togglemenu {
     display: block;
@@ -141,12 +141,54 @@
 .menuopen #menu {
   display: block;
 }
+
 @media only screen and (max-width: 55rem) {
   .navigation {
     display: none;
   }
-
+  .navigation__item--more:hover .submenu {
+    display: none; // Disable hover effect on mobile
+  }
   .menuopen .navigation {
     display: block;
   }
+}
+
+.submenu {
+  display: none; 
+  position: absolute;
+  background-color: $header-background;
+  list-style: none;
+  padding: 0;
+
+  li {
+    padding: 0.5rem 1rem; 
+  }
+}
+
+.submenu:hover {
+  display: block; 
+}
+
+.submenu-toggle {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+  z-index: -1; // Visually hide the checkbox
+}
+
+.navigation__item--more {
+  position: relative; // Needed for absolute positioning of submenu
+  
+  &:hover .submenu,
+  .submenu-toggle:checked + .submenu {
+    display: block; // Display submenu on hover or when the checkbox is checked
+  }
+
+  label {
+    cursor: pointer; // Ensure label looks clickable
+    display: block; // Necessary to make the label clickable over the entire area
+  }
+
 }
