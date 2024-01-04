@@ -2,7 +2,6 @@
 .card {
   max-width: 18rem;
   border-radius: map-get($base, border-radius);
-  @include box-shadow();
   @include transition(box-shadow map-get($animation, duration) map-get($animation, timing-function));
   & > :first-child {
     border-top-left-radius: map-get($base, border-radius);
@@ -79,18 +78,15 @@
 .card--clickable {
   cursor: pointer;
   @include hover() {
-    @include box-shadow(2);
     .card__image {
       & > img {
         height: inherit;
       }
     }
   }
-  @include transition(map-get($clickable, transition));
 }
 
 .card--flat {
-  @include box-shadow(0);
   .card__image {
     & > img {
       border-radius: map-get($base, border-radius);

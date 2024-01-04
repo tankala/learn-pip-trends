@@ -59,6 +59,9 @@ GEM
       jekyll (>= 3.8, < 5.0)
     jekyll-sitemap (1.4.0)
       jekyll (>= 3.7, < 5.0)
+    jekyll-url-metadata (1.0.4)
+      jekyll (>= 3.0.0)
+      nokogiri (>= 1.10.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     jemoji (0.13.0)
@@ -104,6 +107,7 @@ DEPENDENCIES
   jekyll-seo-tag
   jekyll-sitemap
   jekyll-text-theme!
+  jekyll-url-metadata
   rake (~> 10.0)
 
 BUNDLED WITH
