@@ -11,7 +11,8 @@ article_header:
   background_image:
     gradient: 'linear-gradient(135deg, #82d2a6, #8087e8)'
 date: 2023-12-01
-author: lavanya
+author:
+  name: Lavanya Mylapalli
 ---
 
 ## Introduction 
@@ -24,7 +25,7 @@ When we have a large amount of data and want to present it in the best visual fo
 pip install highcharts-core
 ```
 
-## Basic Usage:
+## Basic Usage
 
 It is simple to use once it has been installed. Here's an example of a simple line chart:
 
@@ -56,7 +57,7 @@ In this example, we create a basic line chart with specified x-axis categories, 
 ![Basic Chart](./../assets/images/getting-started/highcharts/chart1.png)
 
 
-## Advanced Features:
+## Advanced Features
 
 This library allows you to use a wide range of Highcharts features. You can modify chart types, add annotations, implement drilldowns, and do a lot more. Highcharts by default it will show line charts
 
@@ -240,10 +241,10 @@ advanced_column_stack_chart.save_file('advanced_column_stack_chart.html')
 `column`: Specifies that the configuration is for the column chart type.  
 `stacking`: Sets the stacking option for the column chart. In this case, it's set to 'normal', meaning the columns are stacked on top of each other.  
 
-## We have Extended Libraries 
+## Extended Libraries 
 [For Stocks charts](https://www.highcharts.com/products/stock/){:target="_blank"}: ```pip install highcharts-stocks```  
 [For Maps charts](https://www.highcharts.com/products/maps/){:target="_blank"}:```pip install highcharts-maps```  
 [For Gantt charts](https://www.highcharts.com/products/gantt/){:target="_blank"}:```pip install highcharts-gantt```  
 
-## Demo Url:
+## Demo Url
 [https://www.highcharts.com/demo](https://www.highcharts.com/demo){:target="_blank"}
