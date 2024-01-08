@@ -146,6 +146,11 @@ analytics:
     tracking_id : "G-714KN8K9WW"
     anonymize_ip: true
 
+## => Link Preview
+##############################
+link-preview:
+  title_max_characters: 64
+  description_max_characters: 128
 
 ## => Build
 ##############################
@@ -179,6 +184,7 @@ plugins:
   - jekyll-sitemap
   - jemoji
   - jekyll-seo-tag
+  - jekyll-url-metadata
 
 #collections
 collections:
@@ -189,6 +195,12 @@ collections:
   course:
     output: true
   blog:
+    output: true
+  relatedarticles:
+    output: true
+  faqs:
+    output: true
+  contribute:
     output: true
 
 defaults:
@@ -224,3 +236,27 @@ defaults:
     values:
       layout: "article"
       comments: true
+  -
+    scope:
+      path: ""
+      type: "relatedarticles"
+    values:
+      layout: "article"
+      aside:
+        toc: true
+      comments: true
+  -
+    scope:
+      path: ""
+      type: "faqs"
+    values:
+      layout: "article"
+      aside:
+        toc: true
+      comments: true
+  -
+    scope:
+      path: ""
+      type: "contribute"
+    values:
+      layout: "article"
