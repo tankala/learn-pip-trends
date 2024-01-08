@@ -3,4 +3,6 @@ gem 'jekyll-seo-tag'
 gem 'jekyll-sitemap'
 # gem "github-pages", group: :jekyll_plugins
 gemspec
-gem 'jekyll-url-metadata'
+group :jekyll_plugins do
+    gem 'jekyll-url-metadata'
+end
