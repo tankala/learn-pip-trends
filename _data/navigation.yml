@@ -1,59 +1,24 @@
 header:
-  - titles:
-      # @start locale config
-      en      : &EN       Getting Started
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
+  - titles: Getting Started
     url: /getting-started.html
 
-  - titles:
-      # @start locale config
-      en      : &EN       Sample Code
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-      # @end locale config
-    url: /sample-code.html
-
-  - titles:
-      # @start locale config
-      en      : &EN       Courses
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-      # @end locale config
+  - titles: Courses
     url: /courses.html
 
-  - titles:
-      # @start locale config
-      en      : &EN       Blog
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-      # @end locale config
+  - titles: Blog
     url: /blog.html
 
-  - titles:
-      # @start locale config
-      en      : &EN       Newsletter
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-      # @end locale config
+  - titles: Newsletter
     url: https://newsletter.piptrends.com/
 
-  - titles:
-      # @start locale config
-      en      : &EN       Pip Trends Home
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-      # @end locale config
+  - titles: Pip Trends Home
     url: https://piptrends.com/
+
+  - titles: More
+    submenu:
+      - title: Sample Code
+        url: /sample-code.html
+      - title: Related Articles
+        url: /related-articles.html
+      - title: FAQs
+        url: /faq.html
