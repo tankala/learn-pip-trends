@@ -1,7 +1,7 @@
 ---
 layout: article
 title: requests
-description: Python's requests library is a powerful and user-friendly tool for making HTTP requests
+description: A beginner's guide to Python's requests library, a powerful and user friendly tool for making HTTP requests.
 tags: [python, pip, piptrends, requests, HTTP]
 image: https://learn.piptrends.com/assets/images/getting-started/getting-started-requests-cover.png
 cover: /assets/images/getting-started/requests.png
