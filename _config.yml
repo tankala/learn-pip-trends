@@ -242,18 +242,14 @@ defaults:
       type: "relatedarticles"
     values:
       layout: "article"
-      aside:
-        toc: true
-      comments: true
+
   -
     scope:
       path: ""
       type: "faqs"
     values:
       layout: "article"
-      aside:
-        toc: true
-      comments: true
+
   -
     scope:
       path: ""
