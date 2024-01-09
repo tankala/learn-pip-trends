@@ -1,6 +1,6 @@
 ---
 layout: article
-title: matplotlib - PyPlot
+title: matplotlib
 description: Explore the power of PyPlot, a module within matplotlib, for creating dynamic and visually appealing plots in Python.
 tags: [matplotlib, PyPlot, Python, Data Visualization, Tutorial]
 image: https://learn.piptrends.com/assets/images/getting-started/getting-started-matplotlib-cover.png
