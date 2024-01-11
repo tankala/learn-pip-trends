@@ -4,7 +4,7 @@ title: Highcharts-core
 description: A comprehensive guide on how to work with Highchats-core, a Python library for creating dynamic charts.
 tags: [highcharts-core, charts, python, pip]
 image: https://learn.piptrends.com/assets/images/getting-started/getting-started-python-highcharts-cover.png
-cover: [/assets/images/getting-started/Python-Highcharts-Icon]
+cover: /assets/images/getting-started/Python-Highcharts-Icon.png
 article_header:
   type: overlay
   theme: dark
