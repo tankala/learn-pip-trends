@@ -16,7 +16,7 @@ author: ayush
 
 ## Introduction
 
-[MySQL](https://www.mysql.com/) is an open-source database system that uses SQL (Structured Query Language) for managing data. It's popular for both small and large projects.
+[MySQL](https://www.mysql.com/){:target="_blank"}is an open-source database system that uses SQL (Structured Query Language) for managing data. It's popular for both small and large projects.
 
 PyMySQL is a Python library for connecting to a MySQL database. It's written in Python, easy to use, and works with Python 2.7 and 3.x versions. PyMySQL is favored because it's simple, doesn't need extra software, and supports secure SSL connections. This makes it a great choice for Python applications needing to work with databases.
 
