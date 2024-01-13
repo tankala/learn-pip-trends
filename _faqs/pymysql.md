@@ -22,7 +22,7 @@ PyMySQL is written entirely in Python and is a pure-Python MySQL client, whereas
 
 <details>
 <summary>How do you install PyMySQL?</summary>
-You can install PyMySQL using pip: `pip install pymysql`. This is the standard method for installing Python packages.
+You can install PyMySQL using pip: ```pip install pymysql```. This is the standard method for installing Python packages.
 </details>
 
 <details>
@@ -32,13 +32,13 @@ Yes, PyMySQL works with both MySQL and MariaDB databases. It's designed to be a 
 
 <details>
 <summary>How do you handle transactions in PyMySQL?</summary>
-Transactions in PyMySQL are managed through the connection object. After executing your queries, you use `connection.commit()` to commit the transaction or `connection.rollback()` to roll back the transaction.
+Transactions in PyMySQL are managed through the connection object. After executing your queries, you use ```connection.commit()``` to commit the transaction or ```connection.rollback()``` to roll back the transaction.
 </details>
 
 <details>
 <summary>What is the purpose of the cursor in PyMySQL?
 </summary>
-A cursor is a Python object that allows you to execute MySQL queries and retrieve results. It provides methods like `execute()`, `fetchone()`, `fetchall()`, and `fetchmany()` for these purposes.
+A cursor is a Python object that allows you to execute MySQL queries and retrieve results. It provides methods like ```execute()```, ```fetchone()```, ```fetchall()```, and ```fetchmany()``` for these purposes.
 </details>
 
 <details>
