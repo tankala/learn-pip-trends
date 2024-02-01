@@ -51,9 +51,10 @@ connection = pymysql.connect(host='your_host',
 connection.select_db('your_database')
 ```
 
-## Creating a cursor object
-To interact with the database, we have to create a cursor object. The cursor is used to execute queries and fetch results.
+## Understanding the cursor object
+In PyMySQL, the `cursor` object is a crucial component when working with databases. It represents a pointer or handle to the result set of a query that is executed on the database. The cursor object allows you to interact with the database, fetch rows, execute queries, and manage transactions.
 
+## Creating a cursor object
 To create a cursor, use the `cursor` method of the connection object:
 
 ```python
@@ -247,10 +248,3 @@ In this article, we have explored the PyMySQL library, which empowers users to i
 
 Remember, the key to mastering PyMySQL, like any library, lies in practice and experimentation. Don't hesitate to try out new ideas and build your own unique applications using this versatile library. Also, always remember to close a connection when it is no longer needed and free up resources. Happy coding!
 
-## Useful Links
-- [PyMySQL documentation](https://pymysql.readthedocs.io/en/latest/){:target="_blank"}
-- [PyPi - PyMySQL](https://pypi.org/project/pymysql/){:target="_blank"}
-- [PyMySQL — Connecting Python and SQL for Data Science](https://towardsdatascience.com/pymysql-connecting-python-and-sql-for-data-science-91e7582d21d7){:target="_blank"}
-- [Python & MySQL: baby-steps with pymysql](https://medium.com/swlh/python-mysql-baby-steps-with-pymysql-89d62191f312){:target="_blank"}
-- [Connect to MySQL using PyMySQL in Python](https://www.geeksforgeeks.org/connect-to-mysql-using-pymysql-in-python/){:target="_blank"}
-- [SQL – A Complete Guide for Beginners](https://www.syncfusion.com/blogs/post/sql-a-complete-guide-for-beginners.aspx){:target="_blank"}
