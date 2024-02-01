@@ -26,10 +26,11 @@
 
 .link-preview-box img {
   width: 128px;
-  height: auto;
+  height: 68px;
   margin-right: 16px;
   border-radius: 4px;
   flex-shrink: 0;
+  object-fit: cover;
 }
 
 .link-preview-text {
