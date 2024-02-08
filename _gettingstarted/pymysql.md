@@ -4,7 +4,7 @@ title: PyMySQL
 description: A comprehensive guide on how to work with PyMySQL, a Python library to connect to the MySQL databases.
 tags: [PyMySQL, python library, MySQL, SQL, tutorial]
 image: https://learn.piptrends.com/assets/images/getting-started/getting-started-pymysql-cover.png
-cover: /assets/images/getting-started/pymysql-Icon.png
+cover: /assets/images/getting-started/pymysql-icon.png
 article_header:
   type: overlay
   theme: dark
