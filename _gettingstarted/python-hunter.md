@@ -16,7 +16,7 @@ author:
 ---
 
 ## Introduction
-Python Hunter is a versatile code tracing toolkit developed for debugging, logging, inspection, It is not meant for measuring the  coverage. It offers a simple Python API, a comfortable terminal API, and a command-line tool for attaching to processes. If you have any bugs in your code, and if you worry how to trace them, this is the best package that can help you. It will help you in tracing adn understanding the flow of your code.Debugging the code is very challenging especially for beginners, it will behave as a debugging assistant that can help you in reavealing the hidden paths of your program that happens during execution.
+Python Hunter is a versatile code tracing toolkit developed for debugging, logging, inspection, It is not meant for measuring the  coverage. It offers a simple Python API, a comfortable terminal API, and a command-line tool for attaching to processes. If you have any bugs in your code, and if you worry how to trace them, this is the best package that can help you. It will help you in tracing and understanding the flow of your code.Debugging the code is very challenging especially for beginners, it will behave as a debugging assistant that can help you in reavealing the hidden paths of your program that happens during execution.
 
  **Installation**
 To install python hunter into your project, open your terminal and run the below command.
