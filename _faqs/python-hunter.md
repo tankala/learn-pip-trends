@@ -45,12 +45,3 @@ Snoop is a revised version of PySnooper. Both are better suited to tracing tiny 
 <summary>Why not coverage?</summary>
 Coverage is a great tool for debugging, but only for "debugging by looking at what code is (not) run". Checking branch coverage is useful, but it only gets you so far.
 </details>
-
-<details>
-    <summary>Projects using Hunter</summary>
-    Noteworthy usages or Hunter (submit a PR with your project if you built a tool that relies on hunter)
-
-    - Crunch-io/diagnose - a runtime instrumentation library.
-    - talwrii/huntrace - an alternative cli (similar to ltrace).
-    - anki-code/xunter - a profiling tool made specifically for the xonsh shell.
-</details>
