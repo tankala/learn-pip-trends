@@ -25,7 +25,7 @@ To install python hunter into your project, open your terminal and run the below
    pip install hunter
    ```
 
-### Importing the Trace
+## Importing the Trace
 
 To get started, import the Python-Hunter trace that will accompany you on your hunt. Import it into your script like this, hunter.trace can take 2 types of arguments
 - Keyword arguments include `module`, `function`, and `action`.
@@ -40,7 +40,7 @@ To get started, import the Python-Hunter trace that will accompany you on your h
    trace(module='posixpath', action=hunter.CallPrinter)
    ```
 
-### Defining the Rules
+## Defining the Rules
 We can set the rules for python-hunter, for example if you want to track a specific function you can use the `Q` object like below
 
    ```python
@@ -72,7 +72,7 @@ We can set the rules for python-hunter, for example if you want to track a speci
    import foo
    foo.func()
    ```
-### Starting the Hunt
+## Starting the Hunt
 Once the rules are set, initiate the hunt using the `open_trace` function
 
    ```python
@@ -84,7 +84,7 @@ Once the rules are set, initiate the hunt using the `open_trace` function
 
 This captures information about your code execution.
 
-### Examining the Hunted
+## Examining the Hunted
    To see what your Python-Hunter found, check the captured events:
 
    ```python
@@ -110,7 +110,7 @@ A list of all the keyword filters that hunter.trace or hunter.Q accept:
 - threadid (int)
 - threadname (str) - whatever threading.Thread.name returns
 
-### Getting Around the Python-Hunter
+## Getting Around the Python-Hunter
 
 **Customizing Your Hunt**
    Python-Hunter is flexible – you can customize your hunt by setting specific conditions, making it more efficient for your debugging needs.
@@ -121,7 +121,7 @@ A list of all the keyword filters that hunter.trace or hunter.Q accept:
 **Integration with Logging**
    Python-Hunter seamlessly integrates with Python's logging module, allowing you to incorporate it into your existing logging setup.
 
-### Projects using Hunter**
+## Projects using Hunter**
 Noteworthy usages or Hunter (submit a PR with your project if you built a tool that relies on hunter)
 
 - Crunch-io/diagnose - a runtime instrumentation library.
