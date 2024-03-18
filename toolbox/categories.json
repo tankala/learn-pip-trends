@@ -1,0 +1,334 @@
+{
+    "categories": {
+        "authentication": {
+            "title": "Authentication",
+            "packageNames": [
+                "authlib",
+                "oauthlib",
+                "python-oauth2",
+                "pyjwt",
+                "python-jwt"
+            ]
+        },
+        "cms": {
+            "title": "CMS",
+            "packageNames": [
+                "wagtail"
+            ]
+        },
+        "configuration-files": {
+            "title": "Configuration Files",
+            "packageNames": [
+                "configparser",
+                "configobj",
+                "python-decouple"
+            ] 
+        },
+        "cryptography": {
+            "title": "Cryptography",
+            "packageNames": [
+                "cryptography",
+                "paramiko",
+                "pynacl"
+            ]
+        },
+        "data-analysis": {
+            "title": "Data Analysis",
+            "packageNames": [
+                "pandas",
+                "datasette"
+            ]
+        },
+        "data-validation": {
+            "title": "Data Validation",
+            "packageNames": [
+                "cerberus",
+                "colander",
+                "jsonschema",
+                "schema",
+                "schematics"
+            ]
+        },
+        "data-visualization": {
+            "title": "Data Visualization",
+            "packageNames": [
+                "altair",
+                "bokeh",
+                "bqplot",
+                "cartopy",
+                "diagrams"
+            ]
+        },
+        "database": {
+            "title": "Database",
+            "packageNames": [
+                "tinydb",
+                "zodb"
+            ]
+        },
+        "distribution": {
+            "title": "Distribution",
+            "packageNames": [
+                "py2exe",
+                "pyarmor",
+                "pyinstaller",
+                "shiv"
+            ]
+        },
+        "downloader": {
+            "title": "Downloader",
+            "packageNames": [
+                "akshare",
+                "youtube-dl",
+                "s3cmd"
+            ]
+        },
+        "environment-management": {
+            "title": "Environment Management",
+            "packageNames": [
+                "virtualenv"
+            ]
+        },
+        "functional-programming": {
+            "title": "Functional Programming",
+            "packageNames": [
+                "funcy",
+                "more-itertools",
+                "returns",
+                "cytoolz"
+            ]
+        },
+        "graphql": {
+            "title": "GraphQL",
+            "packageNames": [
+                "graphene"
+            ]
+        },
+        "html-manipulation": {
+            "title": "HTML Manipulation",
+            "packageNames": [
+                "beautifulsoup",
+                "bleach",
+                "cssutils",
+                "html5lib",
+                "lxml"
+            ]
+        },
+        "http-clients": {
+            "title": "HTTP Clients",
+            "packageNames": [
+                "httpx",
+                "requests",
+                "treq",
+                "urllib3"
+            ]
+        },
+        "hardware": {
+            "title": "Hardware",
+            "packageNames": [
+                "keyboard",
+                "mouse",
+                "pynput",
+                "scapy"
+            ]
+        },
+        "internationalization": {
+            "title": "Internationalization",
+            "packageNames": [
+                "Babel",
+                "PyICU"
+            ]
+        },
+        "machine-learning": {
+            "title": "Machine Learning",
+            "packageNames": [
+                "gym",
+                "H2O" , 
+                "scikit-learn"
+            ]
+        },
+        "miscellaneous": {
+            "title": "Miscellaneous",
+            "packageNames": [
+                "blinker",
+                "boltons",
+                "itsdangerous",
+                "pluginbase"
+            ]
+        },
+        "natural-language-processing": {
+            "title": "Natural Language Processing",
+            "packageNames": [
+                "gensim",
+                "langid.py",
+                "nltk",
+                "pattern",
+                "polyglot"
+            ]
+        },
+        "network-Virtualization": {
+            "title": "Network Virtualization",
+            "packageNames": [
+                "napalm",
+                "pox"
+            ]
+        },
+        "news-feed": {
+            "title": "News Feed",
+            "packageNames": [
+                "django-activity-stream",
+                "Stream Framework"
+            ]
+        }, 
+        "package-management": {
+            "title": "Package Management",
+            "packageNames": [
+                "PyPI",
+                "pip-tools",
+                "conda",
+                "poetry"
+            ]
+        },
+        "permissions": {
+            "title": "Permissions",
+            "packageNames": [
+                "django-guardian"
+            ]
+        },
+        "processes": {
+            "title": "Processes",
+            "packageNames": [
+                "delegator.py",
+                "sarge",
+                "sh"
+            ]
+        },
+        "rpc-servers": {
+            "title": "RPC Servers",
+            "packageNames": [
+                "RPyC"
+            ]
+        },
+        "serverless-frameworks": {
+            "title": "Serverless Frameworks",
+            "packageNames": [
+                "Zappa"
+           ]
+        },
+        "shell": {
+            "title": "Shell",
+            "packageNames": [
+                "xonsh"
+           ]
+        },
+        "static-site-generator": {
+            "title": "Static Site Generator",
+            "packageNames": [
+                "mkdocs",
+                "pelican"
+           ]
+        },
+        "tagging": {
+            "title": "Tagging",
+            "packageNames": [
+                "django-taggit"
+           ]
+        },
+        "task-queues": {
+            "title": "Task Queues",
+            "packageNames": [
+                "celery",
+                "dramatiq",
+                "huey",
+                "rq"
+           ]
+        },
+        "template-engine": {
+            "title": "Template Engine",
+            "packageNames": [
+                "Genshi",
+                "Jinja2",
+                "Mako"
+           ]
+        },
+        "third-party-apis": {
+            "title": "Third-party APIs",
+            "packageNames": [
+                "apache-libcloud",
+                "boto3",
+                "django-wordpress",
+                "facebook-sdk",
+                "twython"
+           ]
+        },
+        "url-manipulation": {
+            "title": "URL Manipulation",
+            "packageNames": [
+                "furl",
+                "purl",
+                "pyshorteners",
+                "webargs"
+           ]
+        },
+        "video": {
+            "title": "Video",
+            "packageNames": [
+                "moviepy",
+                "scikit-video"
+           ]
+        },
+        "web-asset-management": {
+            "title": "Web Asset Management",
+            "packageNames": [
+                "django-compressor",
+                "django-pipeline",
+                "django-storages",
+                "fanstatic",
+                "webassets"
+           ]
+        },
+        "web-content-extracting": {
+            "title": "Web Content Extracting",
+            "packageNames": [
+                "html2text",
+                "textract"
+           ]
+        },
+        "web-crawling": {
+            "title": "Web Crawling",
+            "packageNames": [
+                "feedparser",
+                "mechanicalsoup",
+                "scrapy"
+           ]
+        },
+        "websocket": {
+            "title": "WebSocket",
+            "packageNames": [
+                "autobahn-python",
+                "channels",
+                "websockets"
+           ]
+        },
+        "wsgi-servers": {
+            "title": "WSGI Servers",
+            "packageNames": [
+                "gunicorn",
+                "uwsgi",
+                "waitress",
+                "werkzeug"
+           ]
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
