@@ -132,19 +132,56 @@
                 "scapy"
             ]
         },
+        "implementations": {
+            "title": "Implementations",
+            "packageNames": [
+                "cython",
+                "numba"
+            ]
+        },
+        "interactive-interpreter": {
+            "title": "Interactive Interpreter",
+            "packageNames": [
+                "bpython",
+                "ipython",
+                "ptpython",
+                "prompt-toolkit"
+            ]
+        },        
         "internationalization": {
             "title": "Internationalization",
             "packageNames": [
-                "Babel",
-                "PyICU"
+                "babel",
+                "pyicu"
+            ]
+        },
+        "job-scheduler": {
+            "title": "Job Scheduler",
+            "packageNames": [
+                "apache-airflow",
+                "apscheduler",
+                "Prefect",
+                "schedule"
+            ]
+        },
+        "logging": {
+            "title": "Logging",
+            "packageNames": [
+                "Logbook",
+                "logging",
+                "loguru",
+                "structlog",
+                "python-json-logger"
             ]
         },
         "machine-learning": {
             "title": "Machine Learning",
             "packageNames": [
-                "gym",
-                "H2O" , 
-                "scikit-learn"
+                "gymnasium",
+                "h2o" , 
+                "scikit-learn",
+                "xgboost",
+                "MindsDB"
             ]
         },
         "miscellaneous": {
@@ -160,53 +197,68 @@
             "title": "Natural Language Processing",
             "packageNames": [
                 "gensim",
-                "langid.py",
                 "nltk",
                 "pattern",
-                "polyglot"
+                "spacy",
+                "stanza"
             ]
         },
-        "network-Virtualization": {
-            "title": "Network Virtualization",
+        "orm": {
+            "title": "ORM",
             "packageNames": [
-                "napalm",
-                "pox"
+                "SQLAlchemy",
+                "peewee",
+                "Pony",
+                "mongoengine",
+                "pynamodb"
             ]
         },
-        "news-feed": {
-            "title": "News Feed",
-            "packageNames": [
-                "django-activity-stream",
-                "Stream Framework"
-            ]
-        }, 
         "package-management": {
             "title": "Package Management",
             "packageNames": [
-                "PyPI",
+                "pip",
                 "pip-tools",
-                "conda",
-                "poetry"
+                "poetry",
+                "pipenv",
+                "uv"
             ]
         },
-        "permissions": {
-            "title": "Permissions",
+        "package-repositories": {
+            "title": "Package Repositories",
             "packageNames": [
-                "django-guardian"
+                "devpi-server"
             ]
         },
-        "processes": {
-            "title": "Processes",
+        "penetration-testing": {
+            "title": "Penetration Testing",
             "packageNames": [
-                "delegator.py",
-                "sarge",
-                "sh"
+                "scapy",
+                "dpkt"
+            ]
+        },
+        "recommender-systems": {
+            "title": "Recommender Systems",
+            "packageNames": [
+                "annoy",
+                "implicit",
+                "lightfm",
+                "scikit-surprise"
+            ]
+        },
+        "restful-api": {
+            "title": "RESTful API",
+            "packageNames": [
+                "djangorestframework",
+                "fastapi",
+                "Flask-RESTful",
+                "falcon"
             ]
         },
         "rpc-servers": {
             "title": "RPC Servers",
             "packageNames": [
-                "RPyC"
+                "rpyc",
+                "thrift"
             ]
         },
         "serverless-frameworks": {
@@ -227,6 +279,14 @@
                 "mkdocs",
                 "pelican"
            ]
+        },
+        "subprocesses": {
+            "title": "Subprocesses",
+            "packageNames": [
+                "delegator.py",
+                "sarge",
+                "sh"
+            ]
         },
         "tagging": {
             "title": "Tagging",
@@ -321,14 +381,3 @@
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
