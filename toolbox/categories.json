@@ -155,8 +155,8 @@
                 "dynaconf"
             ]
         },
-        "cryptgraphy": {
-            "title": "cryptography",
+        "cryptography": {
+            "title": "Cryptography",
             "packageNames": [
                 "cryptography",
                 "paramiko",
