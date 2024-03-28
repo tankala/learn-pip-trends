@@ -1,62 +1,206 @@
 {
     "categories": {
+        "admin-panels": {
+            "title": "Admin Panels",
+            "packageNames": [
+                "django-grappelli",
+                "flask-admin",
+                "flower"
+            ]
+        },
+        "asgi-servers": {
+            "title": "ASGI Servers",
+            "packageNames": [
+                "uvicorn",
+                "daphne",
+                "Hypercorn",
+                "starlette"
+            ]
+        },
+        "asynchronous-programming": {
+            "title": "Asynchronous Programming",
+            "packageNames": [
+                "trio",
+                "uvloop",
+                "eventlet",
+                "gevent",
+                "twisted"
+            ]
+        },
+        "audio": {
+            "title": "Audio",
+            "packageNames": [
+                "pydub",
+                "librosa",
+                "mutagen",
+                "audioread"
+            ]
+        },
         "authentication": {
             "title": "Authentication",
             "packageNames": [
-                "authlib",
-                "oauthlib",
-                "python-oauth2",
-                "pyjwt",
-                "python-jwt"
+                "Authlib",
+                "django-allauth",
+                "Flask-Login",
+                "django-oauth-toolkit",
+                "oauthlib"
+            ]
+        },
+        "build-tools": {
+            "title": "Build Tools",
+            "packageNames": [
+                "SCons",
+                "platformio",
+                "setuptools"
+            ]
+        },
+        "built-in-class-enhancement": {
+            "title": "Built-in Classes Enhancement",
+            "packageNames": [
+                "dataclasses",
+                "attrs",
+                "multimethod",
+                "bidict"
             ]
         },
         "cms": {
             "title": "CMS",
             "packageNames": [
+                "django-cms",
                 "wagtail"
             ]
         },
-        "configuration-files": {
-            "title": "Configuration Files",
+        "caching": {
+            "title": "Caching",
+            "packageNames": [
+                "cachetools",
+                "redis",
+                "joblib",
+                "diskcache"
+            ]
+        },
+        "chatops-tools": {
+            "title": "ChatOps Tools",
+            "packageNames": [
+                "rasa",
+                "errbot"
+            ]
+        },
+        "static-analysis-and-code-quality": {
+            "title": "Static Analysis and Code Quality",
+            "packageNames": [
+                "prospector",
+                "flake8",
+                "pylint",
+                "mypy"
+            ]
+        },
+        "code-formatters": {
+            "title": "Code Formatters",
+            "packageNames": [
+                "black",
+                "isort",
+                "yapf"
+            ]
+        },
+        "type-annotations": {
+            "title": "Type Annotations",
+            "packageNames": [
+                "pytpe",
+                "MonkeyType",
+                "typing-extensions"
+            ]
+        },
+        "command-line-application-development": {
+            "title": "Command-line Application Development",
+            "packageNames": [
+                "cement",
+                "click",
+                "typer",
+                "fire",
+                "prompt-toolkit"
+            ]
+        },
+        "terminal-rendering": {
+            "title": "Terminal Rendering",
+            "packageNames": [
+                "rich",
+                "tabulate",
+                "blessed",
+                "tqdm",
+                "colorama"
+            ]
+        },
+        "cli-tools": {
+            "title": "CLI tools",
+            "packageNames": [
+                "copier",
+                "cookiecutter"
+            ]
+        },
+        "computer-vision": {
+            "title": "Computer Vision",
+            "packageNames": [
+                "kornia",
+                "opencv-python",
+                "pytesseract",
+                "scikit-image"
+            ]
+        },
+        "configuration-management": {
+            "title": "Configuration Management",
             "packageNames": [
                 "configparser",
-                "configobj",
-                "python-decouple"
-            ] 
+                "python-decouple",
+                "dynaconf"
+            ]
         },
         "cryptography": {
             "title": "Cryptography",
             "packageNames": [
                 "cryptography",
                 "paramiko",
-                "pynacl"
+                "PyNaCl",
+                "pycryptodome"
             ]
         },
         "data-analysis": {
             "title": "Data Analysis",
             "packageNames": [
                 "pandas",
-                "datasette"
+                "numpy",
+                "scipy",
+                "statsmodels",
+                "xarray"
             ]
         },
         "data-validation": {
             "title": "Data Validation",
             "packageNames": [
                 "cerberus",
-                "colander",
-                "jsonschema",
-                "schema",
-                "schematics"
+                "great-expectations",
+                "pydantic",
+                "marshmallow"
             ]
         },
         "data-visualization": {
             "title": "Data Visualization",
             "packageNames": [
+                "matplotlib",
+                "seaborn",
+                "plotly",
                 "altair",
-                "bokeh",
-                "bqplot",
-                "cartopy",
-                "diagrams"
+                "plotnine"
+            ]
+        },
+        "database-drivers": {
+            "title": "Database Drivers",
+            "packageNames": [
+                "mysqlclient",
+                "pymysql",
+                "psycopg",
+                "cassandra-driver",
+                "pymongo"
             ]
         },
         "database": {
@@ -147,7 +291,7 @@
                 "ptpython",
                 "prompt-toolkit"
             ]
-        },        
+        },
         "internationalization": {
             "title": "Internationalization",
             "packageNames": [
@@ -178,7 +322,7 @@
             "title": "Machine Learning",
             "packageNames": [
                 "gymnasium",
-                "h2o" , 
+                "h2o",
                 "scikit-learn",
                 "xgboost",
                 "MindsDB"
@@ -265,20 +409,20 @@
             "title": "Serverless Frameworks",
             "packageNames": [
                 "Zappa"
-           ]
+            ]
         },
         "shell": {
             "title": "Shell",
             "packageNames": [
                 "xonsh"
-           ]
+            ]
         },
         "static-site-generator": {
             "title": "Static Site Generator",
             "packageNames": [
                 "mkdocs",
                 "pelican"
-           ]
+            ]
         },
         "subprocesses": {
             "title": "Subprocesses",
@@ -292,7 +436,7 @@
             "title": "Tagging",
             "packageNames": [
                 "django-taggit"
-           ]
+            ]
         },
         "task-queues": {
             "title": "Task Queues",
@@ -301,7 +445,7 @@
                 "dramatiq",
                 "huey",
                 "rq"
-           ]
+            ]
         },
         "template-engine": {
             "title": "Template Engine",
@@ -309,7 +453,7 @@
                 "Genshi",
                 "Jinja2",
                 "Mako"
-           ]
+            ]
         },
         "third-party-apis": {
             "title": "Third-party APIs",
@@ -319,7 +463,7 @@
                 "django-wordpress",
                 "facebook-sdk",
                 "twython"
-           ]
+            ]
         },
         "url-manipulation": {
             "title": "URL Manipulation",
@@ -328,14 +472,14 @@
                 "purl",
                 "pyshorteners",
                 "webargs"
-           ]
+            ]
         },
         "video": {
             "title": "Video",
             "packageNames": [
                 "moviepy",
                 "scikit-video"
-           ]
+            ]
         },
         "web-asset-management": {
             "title": "Web Asset Management",
@@ -345,14 +489,14 @@
                 "django-storages",
                 "fanstatic",
                 "webassets"
-           ]
+            ]
         },
         "web-content-extracting": {
             "title": "Web Content Extracting",
             "packageNames": [
                 "html2text",
                 "textract"
-           ]
+            ]
         },
         "web-crawling": {
             "title": "Web Crawling",
@@ -360,7 +504,7 @@
                 "feedparser",
                 "mechanicalsoup",
                 "scrapy"
-           ]
+            ]
         },
         "websocket": {
             "title": "WebSocket",
@@ -368,7 +512,7 @@
                 "autobahn-python",
                 "channels",
                 "websockets"
-           ]
+            ]
         },
         "wsgi-servers": {
             "title": "WSGI Servers",
@@ -377,7 +521,7 @@
                 "uwsgi",
                 "waitress",
                 "werkzeug"
-           ]
+            ]
         }
     }
 }
