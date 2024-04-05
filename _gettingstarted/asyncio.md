@@ -19,7 +19,7 @@ author: Ashok Tankala
 
 Until the car in front of us goes through the toll gate we don’t get a chance to go through. If that is stuck then we are stuck. Whenever it happens I feel like I wish I had a crane so that I could lift the car and put it in a different lane which is not operating so that the queue progresses.
 
-Have you ever felt like that? I am guessing it is yes.
+Have you ever felt like that? I am guessing the answer is yes.
 
 This applies to many queues like queues at grocery stores or apparel stores. All these processes run synchronously.
 To tackle this we use threads or processes means building multiple toll gates instead of one so that we can parallelly process.
