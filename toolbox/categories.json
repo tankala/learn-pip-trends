@@ -210,6 +210,67 @@
                 "zodb"
             ]
         },
+        "date-and-time": {
+            "title": "Date and Time",
+            "packageNames": [
+                "arrow",
+                "datetime",
+                "pendulum",
+                "pytz",
+                "python-dateutil",
+                "time"
+            ]
+        },
+        "debugging-tools": {
+            "title": "Debugging Tools",
+            "packageNames": [
+                "ipdb",
+                "pudb",
+                "manhole",
+                "py-spy",
+                "django-debug-toolbar",
+                "flask-debugtoolbar",
+                "icecream",
+                "pyelftools"
+            ]
+        },
+        "deep-learning": {
+            "title": "Deep Learning",
+            "packageNames": [
+                "keras",
+                "pytorch",
+                "tensorflow",
+                "pytorch-lightning",
+                "theano"
+            ]
+        },
+        "devops-tools": {
+            "title": "DevOps Tools",
+            "packageNames": [
+                "ansible",
+                "pyinfra",
+                "fabric",
+                "supervisor",
+                "psutil"
+            ]
+        },
+        "distributed-computing": {
+            "title": "Distributed Computing",
+            "packageNames": [
+                "dask",
+                "luigi",
+                "pyspark",
+                "ray"
+            ]
+        },
+        "documentation": {
+            "title": "Documentation",
+            "packageNames": [
+                "mkdocs",
+                "pdoc",
+                "sphinx"
+            ]
+        },
         "distribution": {
             "title": "Distribution",
             "packageNames": [
@@ -223,14 +284,30 @@
             "title": "Downloader",
             "packageNames": [
                 "akshare",
-                "youtube-dl",
+                "youtube-dl2",
                 "s3cmd"
+            ]
+        },
+        "email": {
+            "title": "Email",
+            "packageNames": [
+                "mailer",
+                "yagmail"
             ]
         },
         "environment-management": {
             "title": "Environment Management",
             "packageNames": [
                 "virtualenv"
+            ]
+        },
+        "file-manipulation": {
+            "title": "File Manipulation",
+            "packageNames": [
+                "pathlib",
+                "watchdog",
+                "path.py",
+                "python-magic"
             ]
         },
         "functional-programming": {
@@ -242,10 +319,41 @@
                 "cytoolz"
             ]
         },
+        "game-development": {
+            "title": "Game Development",
+            "packageNames": [
+                "pygame",
+                "Panda3D",
+                "pyopengl",
+                "python-magic"
+            ]
+        },
         "graphql": {
             "title": "GraphQL",
             "packageNames": [
                 "graphene"
+            ]
+        },
+        "geolocation": {
+            "title": "Geolocation",
+            "packageNames": [
+                "django-countries",
+                "geojson",
+                "geopy"
+            ]
+        },
+        "gui-development": {
+            "title": "GUI Development",
+            "packageNames": [
+                "enaml",
+                "kivy",
+                "pyglet",
+                "pygobject",
+                "pysimplegui",
+                "pywebview",
+                "urwid",
+                "wxPython",
+                "dearpygui"
             ]
         },
         "html-manipulation": {
@@ -274,6 +382,18 @@
                 "mouse",
                 "pynput",
                 "scapy"
+            ]
+        },
+        "image-processing": {
+            "title": "Image Processing",
+            "packageNames": [
+                "pillow",
+                "python-barcode",
+                "pymatting",
+                "pywal",
+                "pyvips",
+                "scikit-image ",
+                "wand"
             ]
         },
         "implementations": {
