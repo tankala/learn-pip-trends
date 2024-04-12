@@ -217,19 +217,15 @@
                 "datetime",
                 "pendulum",
                 "pytz",
-                "python-dateutil",
-                "time"
+                "python-dateutil"
             ]
         },
         "debugging-tools": {
             "title": "Debugging Tools",
             "packageNames": [
                 "ipdb",
-                "pudb",
-                "manhole",
                 "py-spy",
                 "django-debug-toolbar",
-                "flask-debugtoolbar",
                 "icecream",
                 "pyelftools"
             ]
@@ -248,7 +244,6 @@
             "title": "DevOps Tools",
             "packageNames": [
                 "ansible",
-                "pyinfra",
                 "fabric",
                 "supervisor",
                 "psutil"
@@ -284,8 +279,8 @@
             "title": "Downloader",
             "packageNames": [
                 "akshare",
-                "youtube-dl2",
-                "s3cmd"
+                "s3cmd",
+                "flexget"
             ]
         },
         "email": {
@@ -345,15 +340,11 @@
         "gui-development": {
             "title": "GUI Development",
             "packageNames": [
-                "enaml",
                 "kivy",
                 "pyglet",
                 "pygobject",
                 "pysimplegui",
-                "pywebview",
-                "urwid",
-                "wxPython",
-                "dearpygui"
+                "urwid"
             ]
         },
         "html-manipulation": {
@@ -390,8 +381,6 @@
                 "pillow",
                 "python-barcode",
                 "pymatting",
-                "pywal",
-                "pyvips",
                 "scikit-image ",
                 "wand"
             ]
