@@ -47,7 +47,7 @@
             ]
         },
         "build-tools": {
-            "title": "Build ToolS",
+            "title": "Build Tools",
             "packageNames": [
                 "SCons",
                 "platformio",
