@@ -1,15 +1,15 @@
 {
     "categories": {
-        "admin-panels": {
-            "title": "Admin Panels",
+        "admin-panel": {
+            "title": "Admin Panel",
             "packageNames": [
                 "django-grappelli",
                 "flask-admin",
                 "flower"
             ]
         },
-        "asgi-servers": {
-            "title": "ASGI Servers",
+        "asgi-server": {
+            "title": "ASGI Server",
             "packageNames": [
                 "uvicorn",
                 "daphne",
@@ -47,7 +47,7 @@
             ]
         },
         "build-tools": {
-            "title": "Build Tools",
+            "title": "Build ToolS",
             "packageNames": [
                 "SCons",
                 "platformio",
@@ -79,8 +79,8 @@
                 "diskcache"
             ]
         },
-        "chatops-tools": {
-            "title": "ChatOps Tools",
+        "chatops-tool": {
+            "title": "ChatOps Tool",
             "packageNames": [
                 "rasa",
                 "errbot"
@@ -95,16 +95,16 @@
                 "mypy"
             ]
         },
-        "code-formatters": {
-            "title": "Code Formatters",
+        "code-formatter": {
+            "title": "Code Formatter",
             "packageNames": [
                 "black",
                 "isort",
                 "yapf"
             ]
         },
-        "type-annotations": {
-            "title": "Type Annotations",
+        "type-annotation": {
+            "title": "Type Annotation",
             "packageNames": [
                 "pytpe",
                 "MonkeyType",
@@ -131,8 +131,8 @@
                 "colorama"
             ]
         },
-        "cli-tools": {
-            "title": "CLI tools",
+        "cli-tool": {
+            "title": "CLI tool",
             "packageNames": [
                 "copier",
                 "cookiecutter"
@@ -193,8 +193,8 @@
                 "plotnine"
             ]
         },
-        "database-drivers": {
-            "title": "Database Drivers",
+        "database-driver": {
+            "title": "Database Driver",
             "packageNames": [
                 "mysqlclient",
                 "pymysql",
@@ -258,8 +258,8 @@
                 "lxml"
             ]
         },
-        "http-clients": {
-            "title": "HTTP Clients",
+        "http-client": {
+            "title": "HTTP Client",
             "packageNames": [
                 "httpx",
                 "requests",
@@ -276,8 +276,8 @@
                 "scapy"
             ]
         },
-        "implementations": {
-            "title": "Implementations",
+        "implementation": {
+            "title": "Implementation",
             "packageNames": [
                 "cython",
                 "numba"
@@ -380,8 +380,8 @@
                 "dpkt"
             ]
         },
-        "recommender-systems": {
-            "title": "Recommender Systems",
+        "recommender-system": {
+            "title": "Recommender System",
             "packageNames": [
                 "annoy",
                 "implicit",
@@ -398,15 +398,15 @@
                 "falcon"
             ]
         },
-        "rpc-servers": {
-            "title": "RPC Servers",
+        "rpc-server": {
+            "title": "RPC Server",
             "packageNames": [
                 "rpyc",
                 "thrift"
             ]
         },
-        "serverless-frameworks": {
-            "title": "Serverless Frameworks",
+        "serverless-framework": {
+            "title": "Serverless Framework",
             "packageNames": [
                 "Zappa"
             ]
@@ -438,8 +438,8 @@
                 "django-taggit"
             ]
         },
-        "task-queues": {
-            "title": "Task Queues",
+        "task-queue": {
+            "title": "Task Queue",
             "packageNames": [
                 "celery",
                 "dramatiq",
@@ -455,8 +455,8 @@
                 "Mako"
             ]
         },
-        "third-party-apis": {
-            "title": "Third-party APIs",
+        "third-party-api": {
+            "title": "Third-party API",
             "packageNames": [
                 "apache-libcloud",
                 "boto3",
@@ -514,8 +514,8 @@
                 "websockets"
             ]
         },
-        "wsgi-servers": {
-            "title": "WSGI Servers",
+        "wsgi-server": {
+            "title": "WSGI Server",
             "packageNames": [
                 "gunicorn",
                 "uwsgi",
