@@ -50,19 +50,19 @@ Before setting up the environment and start building, there is something we need
 <div style="display: flex; justify-content: center;">
     <img src="../assets/images/articles/discord.py/reset-token.png" alt="Reset Token" style="width: 70%; margin: 10px">
 </div>
-> ##### Note
+> ##### Note:
 >Do not share this token with anyone. Exposure of this token could lead to unauthorized access and compromise of sensitive information
 
 Now that we are all set, let us dive right into building our discord bot.
 
 First and foremost let us install discord.py
 
-```python
+```bash
 python3 -m pip install -U discord.py
 ```
 
 To get voice support also, we should run : 
-```python
+```bash
 python3 -m pip install -U discord.py[voice]
 ```
 
@@ -171,7 +171,7 @@ bot.add_command(test)
 >@client.command(name='list')
 >async def _list(ctx, arg):
 >    pass
-```
+>```
 
 ## Cogs
 As the number of commands increase, your main.py becomes huge and it becomes inefficient and ugly to manage the bot. Cogs is a concept of grouping commands with a similar concept or functioning for a common goal, for example, all the moderation commands can be grouped together, all the commands related to voice channels can be grouped together in another file. Now we will see how to define and sync commands after grouping them.
@@ -180,6 +180,7 @@ First let us create a folder cogs and create the categories.
 <div style="display: flex; justify-content: center;">
     <img src="../assets/images/articles/discord.py/cogs.png" alt="sidebar" style="width: 70%; margin: 10px">
 </div>
+> ##### Note:
 > your categories may differ based on your requirement, this is just defining the structure
 
 Defining commands in cogs is very similar to what we were doing earlier, only difference is here we use classes.
@@ -339,3 +340,8 @@ Ban command is similar to kick, but once a user is banned he cannot join back un
 
 ## Advanced Application
 In this article we have laid the basic foundation for the discord bot, but the possibilities are endless, we can work with voice commands, various decorators, error handling, manage members. Discord.py has a very large active community to help you and has a very good documentation to help you achieve your end goal.
+
+## Related Articles
+
+- [Introduction to Discord.py](https://discordpy.readthedocs.io/en/stable/intro.html)
+- [Getting Started with examples](https://github.com/Rapptz/discord.py/tree/master/examples)
