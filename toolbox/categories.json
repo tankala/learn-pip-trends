@@ -220,8 +220,8 @@
                 "python-dateutil"
             ]
         },
-        "debugging-tools": {
-            "title": "Debugging Tools",
+        "debugging-tool": {
+            "title": "Debugging Tool",
             "packageNames": [
                 "ipdb",
                 "py-spy",
@@ -240,8 +240,8 @@
                 "theano"
             ]
         },
-        "devops-tools": {
-            "title": "DevOps Tools",
+        "devops-tool": {
+            "title": "DevOps Tool",
             "packageNames": [
                 "ansible",
                 "fabric",
