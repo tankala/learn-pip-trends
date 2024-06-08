@@ -1,0 +1,137 @@
+site_name: learn-pip-trends
+theme:
+  name: material
+  custom_dir: overrides
+  logo: assets/logo.png
+  favicon: assets/favicon/favicon.ico
+  palette:
+    scheme: pipTrends
+  font:
+    text: Noto Sans
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.prune
+    - navigation.indexes
+    - navigation.footer
+    - toc.follow
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+    - header.autohide
+    - content.code.copy
+    - content.code.select
+
+nav:
+  - Getting Started:
+    - getting-started/index.md
+    - Python Basics:
+      - Installing Python on Windows: getting-started/python-basics/install-python.md
+      - Installing Packages Using pip: getting-started/python-basics/install-packages.md
+    - Package Articles: 
+      - asyncio — Asynchronous I/O: getting-started/package-articles/asyncio.md
+      - BeautifulSoup4: getting-started/package-articles/beautifulsoup4.md
+      - Discord.py: getting-started/package-articles/discord.md
+      - Highcharts-core: getting-started/package-articles/highcharts-core.md
+      - matplotlib: getting-started/package-articles/matplotlib.md
+      - PyMySQL: getting-started/package-articles/pymysql.md
+      - Python-docx: getting-started/package-articles/python-docx.md
+      - requests: getting-started/package-articles/requests.md
+  - Blog:
+    - blog/index.md
+  - Courses:
+    - courses/index.md
+  - Newsletter:
+    - https://newsletter.piptrends.com/
+  - pip Trends Home: 
+    - https://piptrends.com/
+  - Cheatsheets:
+    - cheatsheets/index.md
+    - Python Basics: cheatsheets/python-basics.md
+  - Calendar:
+    - calendar/index.md
+
+plugins:
+  - search
+  - tags:
+      tags_file: tags.md 
+  - blog:
+      blog_dir: blog
+      blog_toc: true
+      pagination_per_page: 5
+
+
+
+extra_css:
+  - stylesheets/extra.css
+
+copyright: Copyright &copy learn-pip-trends 2024
+
+extra:
+  homepage: getting-started/  # Will replace once homepage is ready
+  custom_data:
+    - key: value
+  tags:
+    <tag>: <identifier> 
+  generator: false
+  social:
+    - icon: fontawesome/solid/envelope
+      link: mailto:ashok@piptrends.com
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/piptrends
+    - icon: fontawesome/brands/x-twitter
+      link: https://twitter.com/piptrends
+    - icon: fontawesome/brands/youtube
+      link: https://www.instagram.com/piptrends
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/pip-trends
+    - icon: fontawesome/brands/github
+      link: https://github.com/tankala
+    - icon: fontawesome/brands/discord
+      link: https://www.discord.gg/invite/RdYEmSWP5t
+
+  analytics:
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >- 
+            Thanks for your feedback! Help us improve this page by
+            using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
+  consent:
+    title: Cookie consent
+    description: >-
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+    actions:
+      - accept
+
+
+markdown_extensions:
+  - attr_list
+  - meta
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+
+  

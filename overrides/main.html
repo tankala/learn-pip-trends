@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+<!-- Custom front matter -->
+{% block extrahead %}
+
+<!-- Extra style sheets (can't be set in mkdocs.yml due to content hash) -->
+<link rel="stylesheet" href="{{ 'assets/stylesheets/custom.css' | url }}" />
+{% if page and page.meta and page.meta.layout %}
+<meta property="og:title" content="{{ page.meta.title }}">
+<meta property="og:description" content="{{ page.meta.description }}">
+<meta property="og:image" content="{{ page.meta.image }}">
+<meta property="og:url" content="{{ page.canonical_url }}">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ page.meta.title }}">
+<meta name="twitter:description" content="{{ page.meta.description }}">
+<meta name="twitter:image" content="{{ page.meta.image }}">
+{% if page.meta.author %}
+<meta name="author" content="{{ page.meta.author.name }}">
+<meta name="twitter:creator" content="{{ page.meta.author.twitter }}">
+{% endif %}
+{% endif %}
+{% endblock %}
+
+
+
+<!-- Theme-related JavaScript -->
+{% block scripts %}
+{{ super() }}
+
+<!-- Extra JavaScript (can't be set in mkdocs.yml due to content hash) -->
+<script src="{{ 'assets/javascripts/custom.js' | url }}"></script>
+{% endblock %}
