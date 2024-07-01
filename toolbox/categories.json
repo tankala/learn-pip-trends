@@ -1,0 +1,527 @@
+{
+    "categories": {
+        "admin-panel": {
+            "title": "Admin Panel",
+            "packageNames": [
+                "django-grappelli",
+                "flask-admin",
+                "flower"
+            ]
+        },
+        "asgi-server": {
+            "title": "ASGI Server",
+            "packageNames": [
+                "uvicorn",
+                "daphne",
+                "Hypercorn",
+                "starlette"
+            ]
+        },
+        "asynchronous-programming": {
+            "title": "Asynchronous Programming",
+            "packageNames": [
+                "trio",
+                "uvloop",
+                "eventlet",
+                "gevent",
+                "twisted"
+            ]
+        },
+        "audio": {
+            "title": "Audio",
+            "packageNames": [
+                "pydub",
+                "librosa",
+                "mutagen",
+                "audioread"
+            ]
+        },
+        "authentication": {
+            "title": "Authentication",
+            "packageNames": [
+                "Authlib",
+                "django-allauth",
+                "Flask-Login",
+                "django-oauth-toolkit",
+                "oauthlib"
+            ]
+        },
+        "build-tools": {
+            "title": "Build Tools",
+            "packageNames": [
+                "SCons",
+                "platformio",
+                "setuptools"
+            ]
+        },
+        "built-in-class-enhancement": {
+            "title": "Built-in Classes Enhancement",
+            "packageNames": [
+                "dataclasses",
+                "attrs",
+                "multimethod",
+                "bidict"
+            ]
+        },
+        "cms": {
+            "title": "CMS",
+            "packageNames": [
+                "django-cms",
+                "wagtail"
+            ]
+        },
+        "caching": {
+            "title": "Caching",
+            "packageNames": [
+                "cachetools",
+                "redis",
+                "joblib",
+                "diskcache"
+            ]
+        },
+        "chatops-tool": {
+            "title": "ChatOps Tool",
+            "packageNames": [
+                "rasa",
+                "errbot"
+            ]
+        },
+        "static-analysis-and-code-quality": {
+            "title": "Static Analysis and Code Quality",
+            "packageNames": [
+                "prospector",
+                "flake8",
+                "pylint",
+                "mypy"
+            ]
+        },
+        "code-formatter": {
+            "title": "Code Formatter",
+            "packageNames": [
+                "black",
+                "isort",
+                "yapf"
+            ]
+        },
+        "type-annotation": {
+            "title": "Type Annotation",
+            "packageNames": [
+                "pytpe",
+                "MonkeyType",
+                "typing-extensions"
+            ]
+        },
+        "command-line-application-development": {
+            "title": "Command-line Application Development",
+            "packageNames": [
+                "cement",
+                "click",
+                "typer",
+                "fire",
+                "prompt-toolkit"
+            ]
+        },
+        "terminal-rendering": {
+            "title": "Terminal Rendering",
+            "packageNames": [
+                "rich",
+                "tabulate",
+                "blessed",
+                "tqdm",
+                "colorama"
+            ]
+        },
+        "cli-tool": {
+            "title": "CLI tool",
+            "packageNames": [
+                "copier",
+                "cookiecutter"
+            ]
+        },
+        "computer-vision": {
+            "title": "Computer Vision",
+            "packageNames": [
+                "kornia",
+                "opencv-python",
+                "pytesseract",
+                "scikit-image"
+            ]
+        },
+        "configuration-management": {
+            "title": "Configuration Management",
+            "packageNames": [
+                "configparser",
+                "python-decouple",
+                "dynaconf"
+            ]
+        },
+        "cryptography": {
+            "title": "Cryptography",
+            "packageNames": [
+                "cryptography",
+                "paramiko",
+                "PyNaCl",
+                "pycryptodome"
+            ]
+        },
+        "data-analysis": {
+            "title": "Data Analysis",
+            "packageNames": [
+                "pandas",
+                "numpy",
+                "scipy",
+                "statsmodels",
+                "xarray"
+            ]
+        },
+        "data-validation": {
+            "title": "Data Validation",
+            "packageNames": [
+                "cerberus",
+                "great-expectations",
+                "pydantic",
+                "marshmallow"
+            ]
+        },
+        "data-visualization": {
+            "title": "Data Visualization",
+            "packageNames": [
+                "matplotlib",
+                "seaborn",
+                "plotly",
+                "altair",
+                "plotnine"
+            ]
+        },
+        "database-driver": {
+            "title": "Database Driver",
+            "packageNames": [
+                "mysqlclient",
+                "pymysql",
+                "psycopg",
+                "cassandra-driver",
+                "pymongo"
+            ]
+        },
+        "database": {
+            "title": "Database",
+            "packageNames": [
+                "tinydb",
+                "zodb"
+            ]
+        },
+        "distribution": {
+            "title": "Distribution",
+            "packageNames": [
+                "py2exe",
+                "pyarmor",
+                "pyinstaller",
+                "shiv"
+            ]
+        },
+        "downloader": {
+            "title": "Downloader",
+            "packageNames": [
+                "akshare",
+                "youtube-dl",
+                "s3cmd"
+            ]
+        },
+        "environment-management": {
+            "title": "Environment Management",
+            "packageNames": [
+                "virtualenv"
+            ]
+        },
+        "functional-programming": {
+            "title": "Functional Programming",
+            "packageNames": [
+                "funcy",
+                "more-itertools",
+                "returns",
+                "cytoolz"
+            ]
+        },
+        "graphql": {
+            "title": "GraphQL",
+            "packageNames": [
+                "graphene"
+            ]
+        },
+        "html-manipulation": {
+            "title": "HTML Manipulation",
+            "packageNames": [
+                "beautifulsoup",
+                "bleach",
+                "cssutils",
+                "html5lib",
+                "lxml"
+            ]
+        },
+        "http-client": {
+            "title": "HTTP Client",
+            "packageNames": [
+                "httpx",
+                "requests",
+                "treq",
+                "urllib3"
+            ]
+        },
+        "hardware": {
+            "title": "Hardware",
+            "packageNames": [
+                "keyboard",
+                "mouse",
+                "pynput",
+                "scapy"
+            ]
+        },
+        "implementation": {
+            "title": "Implementation",
+            "packageNames": [
+                "cython",
+                "numba"
+            ]
+        },
+        "interactive-interpreter": {
+            "title": "Interactive Interpreter",
+            "packageNames": [
+                "bpython",
+                "ipython",
+                "ptpython",
+                "prompt-toolkit"
+            ]
+        },
+        "internationalization": {
+            "title": "Internationalization",
+            "packageNames": [
+                "babel",
+                "pyicu"
+            ]
+        },
+        "job-scheduler": {
+            "title": "Job Scheduler",
+            "packageNames": [
+                "apache-airflow",
+                "apscheduler",
+                "Prefect",
+                "schedule"
+            ]
+        },
+        "logging": {
+            "title": "Logging",
+            "packageNames": [
+                "Logbook",
+                "logging",
+                "loguru",
+                "structlog",
+                "python-json-logger"
+            ]
+        },
+        "machine-learning": {
+            "title": "Machine Learning",
+            "packageNames": [
+                "gymnasium",
+                "h2o",
+                "scikit-learn",
+                "xgboost",
+                "MindsDB"
+            ]
+        },
+        "miscellaneous": {
+            "title": "Miscellaneous",
+            "packageNames": [
+                "blinker",
+                "boltons",
+                "itsdangerous",
+                "pluginbase"
+            ]
+        },
+        "natural-language-processing": {
+            "title": "Natural Language Processing",
+            "packageNames": [
+                "gensim",
+                "nltk",
+                "pattern",
+                "spacy",
+                "stanza"
+            ]
+        },
+        "orm": {
+            "title": "ORM",
+            "packageNames": [
+                "SQLAlchemy",
+                "peewee",
+                "Pony",
+                "mongoengine",
+                "pynamodb"
+            ]
+        },
+        "package-management": {
+            "title": "Package Management",
+            "packageNames": [
+                "pip",
+                "pip-tools",
+                "poetry",
+                "pipenv",
+                "uv"
+            ]
+        },
+        "package-repositories": {
+            "title": "Package Repositories",
+            "packageNames": [
+                "devpi-server"
+            ]
+        },
+        "penetration-testing": {
+            "title": "Penetration Testing",
+            "packageNames": [
+                "scapy",
+                "dpkt"
+            ]
+        },
+        "recommender-system": {
+            "title": "Recommender System",
+            "packageNames": [
+                "annoy",
+                "implicit",
+                "lightfm",
+                "scikit-surprise"
+            ]
+        },
+        "restful-api": {
+            "title": "RESTful API",
+            "packageNames": [
+                "djangorestframework",
+                "fastapi",
+                "Flask-RESTful",
+                "falcon"
+            ]
+        },
+        "rpc-server": {
+            "title": "RPC Server",
+            "packageNames": [
+                "rpyc",
+                "thrift"
+            ]
+        },
+        "serverless-framework": {
+            "title": "Serverless Framework",
+            "packageNames": [
+                "Zappa"
+            ]
+        },
+        "shell": {
+            "title": "Shell",
+            "packageNames": [
+                "xonsh"
+            ]
+        },
+        "static-site-generator": {
+            "title": "Static Site Generator",
+            "packageNames": [
+                "mkdocs",
+                "pelican"
+            ]
+        },
+        "subprocesses": {
+            "title": "Subprocesses",
+            "packageNames": [
+                "delegator.py",
+                "sarge",
+                "sh"
+            ]
+        },
+        "tagging": {
+            "title": "Tagging",
+            "packageNames": [
+                "django-taggit"
+            ]
+        },
+        "task-queue": {
+            "title": "Task Queue",
+            "packageNames": [
+                "celery",
+                "dramatiq",
+                "huey",
+                "rq"
+            ]
+        },
+        "template-engine": {
+            "title": "Template Engine",
+            "packageNames": [
+                "Genshi",
+                "Jinja2",
+                "Mako"
+            ]
+        },
+        "third-party-api": {
+            "title": "Third-party API",
+            "packageNames": [
+                "apache-libcloud",
+                "boto3",
+                "django-wordpress",
+                "facebook-sdk",
+                "twython"
+            ]
+        },
+        "url-manipulation": {
+            "title": "URL Manipulation",
+            "packageNames": [
+                "furl",
+                "purl",
+                "pyshorteners",
+                "webargs"
+            ]
+        },
+        "video": {
+            "title": "Video",
+            "packageNames": [
+                "moviepy",
+                "scikit-video"
+            ]
+        },
+        "web-asset-management": {
+            "title": "Web Asset Management",
+            "packageNames": [
+                "django-compressor",
+                "django-pipeline",
+                "django-storages",
+                "fanstatic",
+                "webassets"
+            ]
+        },
+        "web-content-extracting": {
+            "title": "Web Content Extracting",
+            "packageNames": [
+                "html2text",
+                "textract"
+            ]
+        },
+        "web-crawling": {
+            "title": "Web Crawling",
+            "packageNames": [
+                "feedparser",
+                "mechanicalsoup",
+                "scrapy"
+            ]
+        },
+        "websocket": {
+            "title": "WebSocket",
+            "packageNames": [
+                "autobahn-python",
+                "channels",
+                "websockets"
+            ]
+        },
+        "wsgi-server": {
+            "title": "WSGI Server",
+            "packageNames": [
+                "gunicorn",
+                "uwsgi",
+                "waitress",
+                "werkzeug"
+            ]
+        }
+    }
+}
