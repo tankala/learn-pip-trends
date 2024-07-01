@@ -43,8 +43,6 @@ nav:
       - PyMySQL: getting-started/package-articles/pymysql.md
       - Python-docx: getting-started/package-articles/python-docx.md
       - requests: getting-started/package-articles/requests.md
-  - Blog:
-    - blog/index.md
   - Courses:
     - courses/index.md
   - Newsletter:
@@ -61,10 +59,10 @@ plugins:
   - search
   - tags:
       tags_file: tags.md 
-  - blog:
-      blog_dir: blog
-      blog_toc: true
-      pagination_per_page: 5
+  # - blog:
+  #     blog_dir: blog
+  #     blog_toc: true
+  #     pagination_per_page: 5
 
 
 
