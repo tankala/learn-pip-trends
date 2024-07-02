@@ -1,0 +1,30 @@
+<!-- Tags -->
+{% if "material/tags" in config.plugins and tags %}
+  {% include "partials/tags.html" %}
+{% endif %}
+
+<!-- Actions -->
+{% include "partials/actions.html" %}
+
+<!-- Article header -->
+{% if page.meta.author %}
+<div style="text-align: center; padding: 20px; padding-bottom: 0%;">
+    <img src="{{ page.meta.image }}" alt="{{ page.meta.title }}" style="width: 100%; max-width: 600px; border-radius: 10px;">
+    <h1 style="margin:auto">{{ page.meta.title }}</h1>
+    <p>{{ page.meta.description }}</p>
+    <p><strong>Author:</strong> {{ page.meta.author.name }} | <strong>Date:</strong> {{ page.meta.date }}</p>
+</div>
+<hr>
+{% endif %}
+
+<!-- Page content -->
+{{ page.content }}
+
+<!-- Source file information -->
+{% include "partials/source-file.html" %}
+
+<!-- Was this page helpful? -->
+{% include "partials/feedback.html" %}
+
+<!-- Comment system -->
+{% include "partials/comments.html" %}
