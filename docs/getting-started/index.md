@@ -29,44 +29,6 @@ Unlock the potential of Python packages with our detailed comparison guides. Exp
   </div>
 </div>
 
-## Python Basics
-
-If you're new to Python, it's essential to grasp the fundamentals. Our beginner-friendly guides cover everything from installing Python on your system to understanding basic syntax and data structures. Dive into Python programming with ease and start building your first projects.
-
-### Latest Articles
-
-<div class="card">
- <a href="../getting-started/python-basics/install-python">
-  <img src="../assets/images/getting-started/windows-install-icon.png" alt="Installing Python on Windows Article Icon">
-  </a>
-  <div>
-    <a class="title" href="../getting-started/python-basics/install-python">
-        <h2>Installing Python on Windows</h2>
-    </a>
-    <p>A step-by-step guide on installing Python on Windows for beginners.</p>
-    <p class="read-more-date">
-      <a href="../getting-started/python-basics/install-python">Read more</a>
-      <span class="date">📅 Aug 01, 2023</span>
-    </p>
-  </div>
-</div>
-<div class="card">
- <a href="../getting-started/python-basics/install-packages">
-  <img src="../assets/images/getting-started/pip-icon.png" alt="Installing Packages Using pip Article Icon">
-  </a>
-  <div>
-    <a class="title" href="../getting-started/python-basics/install-packages">
-        <h2>Installing Packages Using pip</h2>
-    </a>
-    <p>A guide on how to install Python packages using pip, the Python package manager.</p>
-    <p class="read-more-date">
-      <a href="../getting-started/python-basics/install-packages">Read more</a>
-      <span class="date">📅 Aug 01, 2023</span>
-    </p>
-  </div>
-</div>
-
-
 ## Popular Python Packages
 
 Discover the power of Python packages with our concise guides that cover essential tools and libraries for various tasks. From data analysis and machine learning to web development and automation, our articles provide step-by-step instructions on how to install, configure, and utilize popular Python packages. Whether you're a beginner looking to expand your skills or an experienced developer seeking new solutions, our resources will help you unlock the full potential of Python and enhance your programming projects.
@@ -149,6 +111,45 @@ Discover the power of Python packages with our concise guides that cover essenti
     <p class="read-more-date">
       <a href="../getting-started/package-articles/matplotlib">Read more</a>
       <span class="date">📅 Dec 18, 2023</span>
+    </p>
+  </div>
+</div>
+
+
+
+## Python Basics
+
+If you're new to Python, it's essential to grasp the fundamentals. Our beginner-friendly guides cover everything from installing Python on your system to understanding basic syntax and data structures. Dive into Python programming with ease and start building your first projects.
+
+### Latest Articles
+
+<div class="card">
+ <a href="../getting-started/python-basics/install-python">
+  <img src="../assets/images/getting-started/windows-install-icon.png" alt="Installing Python on Windows Article Icon">
+  </a>
+  <div>
+    <a class="title" href="../getting-started/python-basics/install-python">
+        <h2>Installing Python on Windows</h2>
+    </a>
+    <p>A step-by-step guide on installing Python on Windows for beginners.</p>
+    <p class="read-more-date">
+      <a href="../getting-started/python-basics/install-python">Read more</a>
+      <span class="date">📅 Aug 01, 2023</span>
+    </p>
+  </div>
+</div>
+<div class="card">
+ <a href="../getting-started/python-basics/install-packages">
+  <img src="../assets/images/getting-started/pip-icon.png" alt="Installing Packages Using pip Article Icon">
+  </a>
+  <div>
+    <a class="title" href="../getting-started/python-basics/install-packages">
+        <h2>Installing Packages Using pip</h2>
+    </a>
+    <p>A guide on how to install Python packages using pip, the Python package manager.</p>
+    <p class="read-more-date">
+      <a href="../getting-started/python-basics/install-packages">Read more</a>
+      <span class="date">📅 Aug 01, 2023</span>
     </p>
   </div>
 </div>
