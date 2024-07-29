@@ -4,7 +4,30 @@ title: Getting Started
 
 # Getting Started with Python and Python Packages
 
-Whether you're a newcomer to Python or eager to explore the vast realm of Python packages, our guides are tailored to suit your needs. From foundational Python concepts to in-depth tutorials on popular packages spanning data science, web development, and more, we're your go-to resource for all things Python. Delve into our curated collection of beginner-friendly materials, gain insights from advanced topics, and join our vibrant community for support and collaboration. Start your Python journey today and unlock the full potential of this versatile programming language with Learn-pip-trends.
+Whether you're a newcomer to Python or eager to explore the vast realm of Python packages, our guides are tailored to suit your needs. From foundational Python concepts to in-depth tutorials on popular packages spanning data science, web development, and more, we're your go-to resource for all things Python.
+
+Delve into our curated collection of beginner-friendly materials, gain insights from advanced topics, and explore our comprehensive package comparison articles. Our comparison guides provide detailed statistics, feature analyses, and expert reviews to help you select the ideal Python packages for your projects. Join our vibrant community for support and collaboration, and start your Python journey today. Unlock the full potential of this versatile programming language with Learn-pip-trends.
+
+## Package Comparisons
+Unlock the potential of Python packages with our detailed comparison guides. Explore and compare essential tools and libraries across various domains, from data analysis and machine learning to web development and automation. Our articles offer comprehensive statistics, feature comparisons, and expert insights to help you pick the best Python package for your needs. Whether you’re selecting a package for a new project or evaluating options for an existing one, our resources are designed to guide you in making informed decisions and enhancing your programming endeavors.
+
+
+### Latest Articles
+<div class="card">
+ <a href="../getting-started/package-comparison/django-fastapi-flask">
+  <img src="../assets/images/getting-started/django-fastapi-flask-icon.png" alt="Installing Python on Windows Article Icon">
+  </a>
+  <div>
+    <a class="title" href="../getting-started/package-comparison/django-fastapi-flask">
+        <h2>Django vs FastAPI vs Flask</h2>
+    </a>
+    <p>A comprehensive guide on choosing the right python web framework</p>
+    <p class="read-more-date">
+      <a href="../getting-started/package-comparison/django-fastapi-flask">Read more</a>
+      <span class="date">📅 Jul 29, 2024</span>
+    </p>
+  </div>
+</div>
 
 ## Python Basics
 

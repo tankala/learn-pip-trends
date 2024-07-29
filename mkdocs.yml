@@ -31,6 +31,8 @@ theme:
 nav:
   - Getting Started:
     - getting-started/index.md
+    - Package Comparison:
+      - django vs FastAPI vs Flask: getting-started/package-comparison/django-fastapi-flask.md
     - Python Basics:
       - Installing Python on Windows: getting-started/python-basics/install-python.md
       - Installing Packages Using pip: getting-started/python-basics/install-packages.md
