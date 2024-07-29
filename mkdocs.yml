@@ -31,6 +31,8 @@ theme:
 nav:
   - Getting Started:
     - getting-started/index.md
+    - Package Comparison:
+      - django vs FastAPI vs Flask: getting-started/package-comparison/django-fastapi-flask.md
     - Python Basics:
       - Installing Python on Windows: getting-started/python-basics/install-python.md
       - Installing Packages Using pip: getting-started/python-basics/install-packages.md
@@ -72,7 +74,7 @@ extra_css:
 copyright: Copyright &copy learn-pip-trends 2024
 
 extra:
-  homepage: getting-started/  # Will replace once homepage is ready
+  homepage: /  # Will replace once homepage is ready
   custom_data:
     - key: value
   tags:

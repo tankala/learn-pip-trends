@@ -13,6 +13,7 @@ cover: /assets/images/getting-started/matplotlib-icon.png
 date: 2023-12-18
 author: 
   name: Ayush Jain
+  twitter: ayushganna
 ---
 
 ## Data Visualization

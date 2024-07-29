@@ -12,6 +12,7 @@ cover: /assets/images/getting-started/pymysql-icon.png
 date: 2024-01-13
 author: 
   name: Ayush jain
+  twitter: ayushganna
 ---
 
 ## Introduction

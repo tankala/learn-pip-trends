@@ -13,6 +13,7 @@ cover: /assets/images/getting-started/python-docx-icon.png
 date: 2023-08-02
 author: 
   name: Ayush Jain
+  twitter: ayushganna
 ---
 
 ## Introduction
