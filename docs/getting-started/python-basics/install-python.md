@@ -2,14 +2,14 @@
 layout: article
 title: Installing Python on Windows
 description: A step-by-step guide on installing Python on Windows for beginners.
-tags: [python, windows, installation, beginners, programming]
-image: https://learn.piptrends.com/assets/images/getting-started/getting-started-python-installation-cover.png
-cover: /assets/images/getting-started/Python-Windows-Install-Logo.png
-article_header:
-  type: overlay
-  theme: dark
-  background_image:
-    gradient: 'linear-gradient(135deg, #2BF29F, #FFFF00)'
+tags: 
+  - python
+  - beginners
+  - packages
+  - windows 
+  - tutorial
+image: /assets/images/getting-started/windows-install-cover.png
+cover: /assets/images/getting-started/windows-install-icon.png
 date: 2023-08-01
 author: 
    name: Ayush Jain
