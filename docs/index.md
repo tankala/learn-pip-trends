@@ -7,7 +7,7 @@ title: Home
 
 <div class="card">
  <a href="../getting-started/package-comparison/django-fastapi-flask">
-  <img src="../assets/images/getting-started/django-fastapi-flask-icon.png" alt="Installing Python on Windows Article Icon">
+  <img src="../assets/images/getting-started/django-fastapi-flask-icon.png" alt="django vs FastAPI vs Flask Icon">
   </a>
   <div>
     <a class="title" href="../getting-started/package-comparison/django-fastapi-flask">
