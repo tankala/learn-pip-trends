@@ -11,6 +11,7 @@ tags:
 date: 2024-04-01
 author: 
    name: Ayush Jain
+   twitter: ayushganna
 ---
 
 ### Variables and Data Types

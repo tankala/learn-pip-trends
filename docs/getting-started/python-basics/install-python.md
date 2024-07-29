@@ -12,7 +12,8 @@ article_header:
     gradient: 'linear-gradient(135deg, #2BF29F, #FFFF00)'
 date: 2023-08-01
 author: 
-  name: Ayush Jain
+   name: Ayush Jain
+   twitter: ayushganna
 ---
 
 #### Prerequisites
