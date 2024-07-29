@@ -1,4 +1,6 @@
 site_name: learn-pip-trends
+site_url: https://learn.piptrends.com/
+site_description: Python learning forum
 theme:
   name: material
   custom_dir: overrides
@@ -74,7 +76,6 @@ extra_css:
 copyright: Copyright &copy learn-pip-trends 2024
 
 extra:
-  homepage: https://learn.piptrends.com
   custom_data:
     - key: value
   tags:
