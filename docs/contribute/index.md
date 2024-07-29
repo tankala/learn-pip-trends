@@ -62,4 +62,13 @@ author:
 - Push your branch: ```git push origin your-branch-name```
 - Submit a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
 
-**Please ensure that the front matter is included as specified above when contributing an article. Also do not make any other changes to any other file. The home page will be auto-updated after you submit your article. You can refer to previous articles and their respective front matter for examples. Thank you for your contributions!**
+**Please ensure that the front matter is included as specified above when contributing an article. Also do not make any other changes to any other file. The home page will be auto-updated after you submit your article. You can refer to previous articles and their respective front matter for examples.**
+
+
+If you want to contribute by modifying an existing article, you can modify the article markdown file. Make sure you add the modifier tag to the existing front matter once you're done making your changes. 
+
+```markdown
+modifier: Add your name here
+```
+
+**Thanks for your contributions!**

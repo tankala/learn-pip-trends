@@ -13,6 +13,9 @@
     <h1 style="margin:auto">{{ page.meta.title }}</h1>
     <p>{{ page.meta.description }}</p>
     <p><strong>Author:</strong> {{ page.meta.author.name }} | <strong>Date:</strong> {{ page.meta.date }}</p>
+    {% if page.meta.modifier %}
+    <p><strong>Last Modified by:</strong> {{ page.meta.modifier }} </p>
+    {% endif %}
 </div>
 <hr>
 {% endif %}
