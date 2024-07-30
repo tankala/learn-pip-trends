@@ -34,4 +34,5 @@ jobs:
         run: pip install mkdocs-material
 
       - name: Deploy to GitHub Pages
+        if: github.repository == 'tankala/learn-pip-trends'
         run: mkdocs gh-deploy --force
