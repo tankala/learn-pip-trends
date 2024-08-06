@@ -210,6 +210,62 @@
                 "zodb"
             ]
         },
+        "date-and-time": {
+            "title": "Date and Time",
+            "packageNames": [
+                "arrow",
+                "datetime",
+                "pendulum",
+                "pytz",
+                "python-dateutil"
+            ]
+        },
+        "debugging-tool": {
+            "title": "Debugging Tool",
+            "packageNames": [
+                "ipdb",
+                "py-spy",
+                "django-debug-toolbar",
+                "icecream",
+                "pyelftools"
+            ]
+        },
+        "deep-learning": {
+            "title": "Deep Learning",
+            "packageNames": [
+                "keras",
+                "pytorch",
+                "tensorflow",
+                "pytorch-lightning",
+                "theano"
+            ]
+        },
+        "devops-tool": {
+            "title": "DevOps Tool",
+            "packageNames": [
+                "ansible",
+                "fabric",
+                "supervisor",
+                "psutil"
+            ]
+        },
+        "distributed-computing": {
+            "title": "Distributed Computing",
+            "packageNames": [
+                "dask",
+                "luigi",
+                "pyspark",
+                "ray"
+            ]
+        },
+        "documentation": {
+            "title": "Documentation",
+            "packageNames": [
+                "mkdocs",
+                "pdoc",
+                "sphinx"
+            ]
+        },
         "distribution": {
             "title": "Distribution",
             "packageNames": [
@@ -223,14 +279,30 @@
             "title": "Downloader",
             "packageNames": [
                 "akshare",
-                "youtube-dl",
-                "s3cmd"
+                "s3cmd",
+                "flexget"
+            ]
+        },
+        "email": {
+            "title": "Email",
+            "packageNames": [
+                "mailer",
+                "yagmail"
             ]
         },
         "environment-management": {
             "title": "Environment Management",
             "packageNames": [
                 "virtualenv"
+            ]
+        },
+        "file-manipulation": {
+            "title": "File Manipulation",
+            "packageNames": [
+                "pathlib",
+                "watchdog",
+                "path.py",
+                "python-magic"
             ]
         },
         "functional-programming": {
@@ -242,10 +314,37 @@
                 "cytoolz"
             ]
         },
+        "game-development": {
+            "title": "Game Development",
+            "packageNames": [
+                "pygame",
+                "Panda3D",
+                "pyopengl",
+                "python-magic"
+            ]
+        },
         "graphql": {
             "title": "GraphQL",
             "packageNames": [
                 "graphene"
+            ]
+        },
+        "geolocation": {
+            "title": "Geolocation",
+            "packageNames": [
+                "django-countries",
+                "geojson",
+                "geopy"
+            ]
+        },
+        "gui-development": {
+            "title": "GUI Development",
+            "packageNames": [
+                "kivy",
+                "pyglet",
+                "pygobject",
+                "pysimplegui",
+                "urwid"
             ]
         },
         "html-manipulation": {
@@ -274,6 +373,16 @@
                 "mouse",
                 "pynput",
                 "scapy"
+            ]
+        },
+        "image-processing": {
+            "title": "Image Processing",
+            "packageNames": [
+                "pillow",
+                "python-barcode",
+                "pymatting",
+                "scikit-image ",
+                "wand"
             ]
         },
         "implementation": {
