@@ -26,7 +26,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   border-right: 2px solid darkgrey;
-  border-radius: 10px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
 
 .rich-link-card .rich-link-card-text {
