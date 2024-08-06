@@ -162,6 +162,8 @@ FastAPI excels in scenarios where performance and modern API development practic
 Each framework has its strengths and is suited to different types of projects. Consider your specific needs, including performance requirements, development speed, and the complexity of your application, to make the best choice.
 
 ## Related Articles 
-- [Comparison of FastAPI with Django and Flask | GeeksforGeeks ](https://www.geeksforgeeks.org/comparison-of-fastapi-with-django-and-flask/)
-- [Comparison of Flask, Django, and FastAPI: Advantages, Disadvantages, and Use Cases | Gen. David L.](https://medium.com/@tubelwj/comparison-of-flask-django-and-fastapi-advantages-disadvantages-and-use-cases-63e7c692382a)
-- [Django vs Flask vs FastAPI: Which Python Web Framework is Right for You? | Gopi Maran](https://www.linkedin.com/pulse/django-vs-flask-fastapi-which-python-web-framework-right-gopi-maran/)
+```preview
+- https://www.geeksforgeeks.org/comparison-of-fastapi-with-django-and-flask/
+- https://medium.com/@tubelwj/comparison-of-flask-django-and-fastapi-advantages-disadvantages-and-use-cases-63e7c692382a
+- https://www.linkedin.com/pulse/django-vs-flask-fastapi-which-python-web-framework-right-gopi-maran/
+```
