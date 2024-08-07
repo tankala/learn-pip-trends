@@ -31,7 +31,10 @@ jobs:
           restore-keys: mkdocs-material-
 
       - name: Install Dependencies
-        run: pip install mkdocs-material
+        run: |
+          pip install mkdocs-material
+          pip install mkdocs-link-preview-plugin
 
       - name: Deploy to GitHub Pages
+        if: github.repository == 'tankala/learn-pip-trends'
         run: mkdocs gh-deploy --force

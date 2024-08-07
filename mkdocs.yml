@@ -13,6 +13,7 @@ theme:
   features:
     - navigation.instant
     - navigation.instant.prefetch
+    - navigation.instant.preview
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
@@ -63,6 +64,7 @@ plugins:
   - search
   - tags:
       tags_file: tags.md 
+  - link-preview
   # - blog:
   #     blog_dir: blog
   #     blog_toc: true
@@ -72,6 +74,7 @@ plugins:
 
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/link-preview.css
 
 copyright: Copyright &copy learn-pip-trends 2024
 
@@ -130,9 +133,10 @@ markdown_extensions:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
+  - admonition
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
-
-
+  - pymdownx.details
+  
   

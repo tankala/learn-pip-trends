@@ -21,6 +21,10 @@ title: Home
   </div>
 </div>
 
+<p align="center">
+  <a href="./getting-started/#package-comparisons" class="md-button">View More</a>
+</p>
+
 ## Package Articles 
 
 <div class="card">
@@ -55,8 +59,11 @@ title: Home
   </div>
 </div>
 
-## Python Basics
+<p align="center">
+  <a href="./getting-started/#package-articles" class="md-button">View More</a>
+</p>
 
+## Python Basics
 
 <div class="card">
  <a href="../getting-started/python-basics/install-python">
@@ -89,6 +96,10 @@ title: Home
   </div>
 </div>
 
+<p align="center">
+  <a href="./getting-started/#python-basics" class="md-button">View More</a>
+</p>
+
 ## Cheatsheets 
 
 <div class="card">
@@ -107,3 +118,6 @@ title: Home
   </div>
 </div>
 
+<p align="center">
+  <a href="./cheatsheets" class="md-button">View More</a>
+</p>
