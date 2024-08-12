@@ -249,3 +249,46 @@ In this article, we have explored the PyMySQL library, which empowers users to i
 
 Remember, the key to mastering PyMySQL, like any library, lies in practice and experimentation. Don't hesitate to try out new ideas and build your own unique applications using this versatile library. Also, always remember to close a connection when it is no longer needed and free up resources. Happy coding!
 
+## FAQs
+??? question "What is PyMySQL?"
+
+    PyMySQL is a library in Python that enables you to interact with MySQL databases. It allows you to connect to a MySQL database, execute SQL queries, and manage data.
+
+??? question "How is PyMySQL different from MySQLdb?"
+
+    PyMySQL is written entirely in Python and is a pure-Python MySQL client, whereas MySQLdb is a C module that needs to be compiled against MySQL. PyMySQL is often used as a MySQLdb replacement and is compatible with Python 3.
+
+??? question "How do you install PyMySQL?"
+
+    You can install PyMySQL using pip: `pip install pymysql`. This is the standard method for installing Python packages.
+
+??? question "Is PyMySQL compatible with MySQL and MariaDB?"
+
+    Yes, PyMySQL works with both MySQL and MariaDB databases. It's designed to be a drop-in replacement for MySQLdb, which is compatible with these databases.
+
+??? question "How do you handle transactions in PyMySQL?"
+
+    Transactions in PyMySQL are managed through the connection object. After executing your queries, you use `connection.commit()` to commit the transaction or `connection.rollback()` to roll back the transaction.
+
+??? question "What is the purpose of the cursor in PyMySQL?"
+
+    A cursor is a Python object that allows you to execute MySQL queries and retrieve results. It provides methods like `execute()`, `fetchone()`, `fetchall()`, and `fetchmany()` for these purposes.
+
+??? question "How do you manage database connections in PyMySQL?"
+
+    Database connections should be properly opened and closed to manage resources efficiently. Use `pymysql.connect()` to open a connection and `connection.close()` to close it. It’s a good practice to use Python's with statement or try-except-finally blocks to ensure connections are closed even when an error occurs.
+
+??? question "Can you use PyMySQL for complex queries and stored procedures?"
+
+    Yes, PyMySQL supports executing complex SQL queries, including joins, subqueries, and stored procedures. You can execute any SQL command that MySQL supports.
+
+## Related Articles 
+
+```preview
+- https://www.piptrends.com/package/pymysql
+- https://pypi.org/project/PyMySQL/
+- https://towardsdatascience.com/pymysql-connecting-python-and-sql-for-data-science-91e7582d21d7
+- https://medium.com/swlh/python-mysql-baby-steps-with-pymysql-89d62191f312
+- https://www.geeksforgeeks.org/connect-to-mysql-using-pymysql-in-python/
+- https://www.syncfusion.com/blogs/post/sql-a-complete-guide-for-beginners
+```

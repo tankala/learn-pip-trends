@@ -71,4 +71,20 @@ If you want to contribute by modifying an existing article, you can modify the a
 modifier: Add your name here
 ```
 
+To add FAQs to an article follow the below code snippet:
+
+```markdown
+??? question "Add your question here"
+
+    Add your answer here, make sure you indent it.
+```
+
+To add related articles to an article follow the following code snippet:
+
+    ```preview
+    - add
+    - links 
+    - here
+    ```
+
 **Thanks for your contributions!**
