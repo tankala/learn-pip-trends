@@ -34,6 +34,7 @@ jobs:
         run: |
           pip install mkdocs-material
           pip install mkdocs-link-preview-plugin
+          pip install beautifulsoup4
 
       - name: Deploy to GitHub Pages
         if: github.repository == 'tankala/learn-pip-trends'
