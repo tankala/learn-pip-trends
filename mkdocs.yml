@@ -36,6 +36,7 @@ nav:
     - getting-started/index.md
     - Package Comparison:
       - django vs FastAPI vs Flask: getting-started/package-comparison/django-fastapi-flask.md
+      - polars vs pandas: getting-started/package-comparison/polars-pandas.md
     - Python Basics:
       - Installing Python on Windows: getting-started/python-basics/install-python.md
       - Installing Packages Using pip: getting-started/python-basics/install-packages.md
